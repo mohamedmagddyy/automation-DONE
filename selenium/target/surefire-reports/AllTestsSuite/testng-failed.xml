@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllTestsSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="DoneProjectTests(failed)" verbose="0">
+    <classes>
+      <class name="tests.DoneProject.sectors.DeleteSectorTest">
+        <methods>
+          <include name="deleteSectorSuccessfully"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.DoneProject.sectors.DeleteSectorTest -->
+      <class name="tests.DoneProject.sectors.AddSectorTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="addSectorSuccessfully"/>
+        </methods>
+      </class> <!-- tests.DoneProject.sectors.AddSectorTest -->
+      <class name="tests.DoneProject.tasks.EditTaskTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testEditTask"/>
+        </methods>
+      </class> <!-- tests.DoneProject.tasks.EditTaskTest -->
+      <class name="tests.DoneProject.sectors.EditSectorTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="editSectorSuccessfully"/>
+        </methods>
+      </class> <!-- tests.DoneProject.sectors.EditSectorTest -->
+      <class name="tests.DoneProject.projects.AddProjectTest">
+        <methods>
+          <include name="addProjectSuccessfully"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.DoneProject.projects.AddProjectTest -->
+      <class name="tests.DoneProject.projects.EditProjectTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="editProjectSuccessfully"/>
+        </methods>
+      </class> <!-- tests.DoneProject.projects.EditProjectTest -->
+    </classes>
+  </test> <!-- DoneProjectTests(failed) -->
+</suite> <!-- Failed suite [AllTestsSuite] -->

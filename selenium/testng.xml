@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllTestsSuite" verbose="1" parallel="false">
+    <test name="DoneProjectTests">
+        <packages>
+            <!-- شغّل الحزم الفرعية صراحةً -->
+            <package name="tests.DoneProject.projects"/>
+            <package name="tests.DoneProject.roles"/>
+            <package name="tests.DoneProject.sectors"/>
+            <package name="tests.DoneProject.tasks"/>
+            <package name="tests.DoneProject.users"/>
+        </packages>
+    </test>
+</suite>
