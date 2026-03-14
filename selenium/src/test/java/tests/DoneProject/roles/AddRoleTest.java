@@ -3,7 +3,7 @@ package tests.DoneProject.roles;
 import com.DoneProject.Pages.LoginPage;
 import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.RolesPage;
-import com.DoneProject.utils.DriverManager;
+import com.DoneProject.drivers.WebDriverFactory;
 import com.DoneProject.utils.LogUtils;
 import com.DoneProject.utils.Urls;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +19,7 @@ public class AddRoleTest {
 
     @BeforeClass(alwaysRun = true)
     public void setUp() {
-        driver = DriverManager.getDriver();
+        driver = WebDriverFactory.getDriver();
         loginPage = new LoginPage();
         rolesPage = new RolesPage();
         navBar = new NavBarPage();

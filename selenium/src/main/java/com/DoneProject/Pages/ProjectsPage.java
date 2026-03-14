@@ -1,9 +1,7 @@
 package com.DoneProject.Pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+import com.DoneProject.drivers.WebDriverFactory;
+import org.openqa.selenium.*;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.HasDevTools;
 //import org.openqa.selenium.devtools.v137.network.Network;
@@ -15,6 +13,12 @@ import java.util.Optional;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class ProjectsPage extends BasePage {
+    WebDriver driver;
+
+    public ProjectsPage() {
+        driver = WebDriverFactory.getDriver();
+    }
+
 
     // ===== Static Locators =====
     private final By addButton = By.id("dropdownMenuButton1");

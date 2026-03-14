@@ -3,7 +3,8 @@ package tests.DoneProject.roles;
 import com.DoneProject.Pages.LoginPage;
 import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.RolesPage;
-import com.DoneProject.utils.DriverManager;
+
+import com.DoneProject.drivers.WebDriverFactory;
 import com.DoneProject.utils.Urls;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -27,7 +28,8 @@ public class EditRoleTest {
     @BeforeClass(alwaysRun = true)
     public void setUp() {
         // احصل على WebDriver
-        driver = DriverManager.getDriver();
+        driver = WebDriverFactory.getDriver();
+
 
         // أنشئ كائنات الصفحات
         loginPage = new LoginPage();
@@ -73,9 +75,9 @@ public class EditRoleTest {
     }
 
     // ================= تنظيف الاختبار =================
-    @AfterClass(alwaysRun = true)
-    public void tearDown() {
-        // أغلق المتصفح وحرر جميع الموارد
-        DriverManager.quitDriver();
-    }
+//    @AfterClass(alwaysRun = true)
+//    public void tearDown() {
+//        // أغلق المتصفح وحرر جميع الموارد
+//        DriverManager.quitDriver();
+//    }
 }

@@ -2,7 +2,7 @@ package tests.DoneProject.projects;
 
 import com.DoneProject.Pages.LoginPage;
 import com.DoneProject.Pages.ProjectsPage;
-import com.DoneProject.utils.DriverManager;
+import com.DoneProject.drivers.WebDriverFactory;
 import com.DoneProject.utils.Urls;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
@@ -15,7 +15,7 @@ public class DeleteProjectTest {
 
     @BeforeClass
     public void setUp() {
-        driver = DriverManager.getDriver();
+        driver = WebDriverFactory.getDriver();
         projectsPage = new ProjectsPage();
 
         driver.get(Urls.BASE_URL + "/login");

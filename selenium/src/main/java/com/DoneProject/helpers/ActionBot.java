@@ -45,7 +45,8 @@ public class ActionBot {
             logger.info("⏳ جاري الانتظار لعنصر مرئي: {}", locator);
             WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
             logger.info("🔄 جاري مسح النص القديم والكتابة الجديدة: {}", text);
-            element.clear();
+            element.sendKeys(Keys.CONTROL + "a");
+            element.sendKeys(Keys.DELETE);
             element.sendKeys(text);
             logger.info("✅ تم كتابة النص بنجاح: [{}] في العنصر: {}", text, locator);
         } catch (Exception e) {

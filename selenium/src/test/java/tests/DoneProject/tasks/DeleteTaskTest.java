@@ -3,7 +3,7 @@ package tests.DoneProject.tasks;
 import com.DoneProject.Pages.LoginPage;
 import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.TasksPage;
-import com.DoneProject.utils.DriverManager;
+import com.DoneProject.drivers.WebDriverFactory;
 import com.DoneProject.utils.Urls;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
@@ -17,7 +17,8 @@ public class DeleteTaskTest {
 
     @BeforeClass(alwaysRun = true)
     public void setUp() {
-        driver = DriverManager.getDriver();
+        driver = WebDriverFactory.getDriver();
+
         loginPage = new LoginPage();
         navBar = new NavBarPage();
 

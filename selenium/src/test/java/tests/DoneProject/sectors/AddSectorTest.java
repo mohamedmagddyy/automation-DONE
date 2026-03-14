@@ -2,7 +2,7 @@ package tests.DoneProject.sectors;
 
 import com.DoneProject.Pages.LoginPage;
 import com.DoneProject.Pages.SectorsPage;
-import com.DoneProject.utils.DriverManager;
+import com.DoneProject.drivers.WebDriverFactory;
 import com.DoneProject.utils.Urls;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -16,7 +16,8 @@ public class AddSectorTest {
 
     @BeforeClass
     public void setUp() {
-        driver = DriverManager.getDriver();
+        driver = WebDriverFactory.getDriver();
+
         sectorsPage = new SectorsPage();
 
         driver.get(Urls.BASE_URL + "/login");

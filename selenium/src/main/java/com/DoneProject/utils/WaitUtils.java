@@ -29,6 +29,13 @@ public class WaitUtils {
     }
 
     public static void waitForPageToBeReady(WebDriver driver, int timeout) {
+
+        new WebDriverWait(driver, Duration.ofSeconds(timeout))
+                .until(webDriver ->
+                        ((org.openqa.selenium.JavascriptExecutor) webDriver)
+                                .executeScript("return document.readyState")
+                                .equals("complete"));
+
         By loader = By.cssSelector("div.loading, div.ng-star-inserted.loading");
         By toast = By.cssSelector("div.toast-message");
         By overlay = By.cssSelector(".modal-backdrop, .cdk-overlay-backdrop-showing");

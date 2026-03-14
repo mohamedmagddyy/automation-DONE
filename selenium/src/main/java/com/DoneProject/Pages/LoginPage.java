@@ -13,16 +13,13 @@ public class LoginPage extends BasePage {
     }
 
     public void login(String username, String password) {
-        // استنى الصفحة تكون جاهزة
+
         waitForPageToBeReady();
 
-        // استنى كل عنصر يظهر قبل التفاعل و أدخل البيانات
         sendKeys(usernameInput, username);
         sendKeys(passwordInput, password);
         click(loginBtn);
 
         waitForPageToBeReady();
     }
-
 }
-
