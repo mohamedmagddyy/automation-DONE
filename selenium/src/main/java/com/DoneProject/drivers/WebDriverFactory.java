@@ -11,6 +11,7 @@ public class WebDriverFactory {
         return switch (browser.toLowerCase()) {
             case "chrome" -> new ChromeFactory();
             case "edge" -> new EdgeFactory();
+            case "firefox" -> new FirefoxFactory();
             default -> throw new IllegalArgumentException("Browser not supported: " + browser);
         };
     }

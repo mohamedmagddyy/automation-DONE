@@ -2,71 +2,75 @@ package com.DoneProject.Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class SectorsPage extends BasePage {
 
-    // ================= STATIC LOCATORS =================
-    private final By addSectorButton = By.cssSelector("h5.title-list ~ button.btn-primary");
-    private final By sectorNameInput = By.cssSelector("input[type='text'].form-control");
-    private final By saveSectorButton = By.cssSelector("button.btn.btn-primary[type='submit']");
-    private final By confirmDeleteButton = By.cssSelector("button.btn.btn-danger");
-    private final By managerSelectDropdown = By.id("bossSelect");
+    private static final Logger logger = LoggerFactory.getLogger(SectorsPage.class);
 
-    // ================= CONSTRUCTOR =================
+    // ===== Static Locators =====
+    private final By addSectorButton    = By.cssSelector("h5.title-list ~ button.btn-primary");
+    private final By sectorNameInput    = By.cssSelector("input[type='text'].form-control");
+    private final By saveSectorButton   = By.cssSelector("button.btn.btn-primary[type='submit']");
+    private final By confirmDeleteButton = By.cssSelector("button.btn.btn-danger");
+    private final By managerDropdown    = By.id("bossSelect");
+
     public SectorsPage() {
         super();
     }
 
-    // ================= DYNAMIC LOCATORS =================
-    private By sectorCardByName(String sectorName) {
-        return By.xpath("//div[contains(@class,'projectCard')][.//text()[normalize-space()='" + sectorName + "']]");
-    }
-
+    // ===== Dynamic Locators =====
     private By editButtonBySectorName(String sectorName) {
-        return By.xpath("//div[contains(@class,'projectCard')][.//text()[normalize-space()='" + sectorName + "']]//button[@title='Edit']");
+        return By.xpath("//div[contains(@class,'projectCard')][.//text()[normalize-space()='"
+                + sectorName + "']]//button[@title='Edit']");
     }
 
     private By deleteButtonBySectorName(String sectorName) {
-        return By.xpath("//div[contains(@class,'projectCard')][.//text()[normalize-space()='" + sectorName + "']]//button[@title='Delete']");
+        return By.xpath("//div[contains(@class,'projectCard')][.//text()[normalize-space()='"
+                + sectorName + "']]//button[@title='Delete']");
     }
 
-    // ================= ADD SECTOR =================
+    // ===== Add Sector =====
     public void addSector(String name) {
         waitForPageToBeReady();
         click(addSectorButton);
         sendKeys(sectorNameInput, name);
         waitForToastToDisappear();
+        logger.info("✅ تم إضافة السيكتور: {}", name);
     }
 
-    // ================= EDIT SECTOR =================
+    // ===== Edit Sector =====
     public void editSector(String oldName, String newName) {
         waitForPageToBeReady();
-        By editBtn = editButtonBySectorName(oldName);
-        click(editBtn);
+        click(editButtonBySectorName(oldName));
         sendKeys(sectorNameInput, newName);
         click(saveSectorButton);
         waitForToastToDisappear();
+        logger.info("✅ تم تعديل السيكتور من {} إلى {}", oldName, newName);
     }
 
-    // ================= DELETE SECTOR =================
+    // ===== Delete Sector =====
     public void deleteSector(String sectorName) {
         waitForPageToBeReady();
-        By deleteBtn = deleteButtonBySectorName(sectorName);
-        click(deleteBtn);
+        click(deleteButtonBySectorName(sectorName));
         click(confirmDeleteButton);
         waitForToastToDisappear();
+        logger.info("✅ تم حذف السيكتور: {}", sectorName);
     }
 
-    // ================= SELECT MANAGER =================
+    // ===== Select Manager =====
     public void selectManagerByName(String managerName) {
-        Select select = new Select(driver.findElement(managerSelectDropdown));
+        Select select = new Select(driver.findElement(managerDropdown));
         select.selectByVisibleText(managerName);
         click(saveSectorButton);
         waitForToastToDisappear();
+        logger.info("✅ تم اختيار المدير: {}", managerName);
     }
 
-    // ================= ASSERTIONS =================
+    // ===== Toast Message =====
+    // ✅ تستخدم getToastMessage() من BasePage مباشرة
     public String getToastMessage() {
-        return getText(toastSuccess).trim();
+        return super.getToastMessage();
     }
 }

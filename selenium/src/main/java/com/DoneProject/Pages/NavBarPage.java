@@ -1,64 +1,69 @@
 package com.DoneProject.Pages;
 
 import org.openqa.selenium.By;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class NavBarPage extends BasePage {
 
-    // ===== Dropdown button =====
-    private final By notificationDropdown = By.id("notifictions"); // الزرار اللي يفتح القائمة
+    private static final Logger logger = LoggerFactory.getLogger(NavBarPage.class);
+
+    // ===== Dropdown Button =====
+    private final By notificationDropdown = By.id("notifictions");
 
     // ===== Menu Items =====
-    private final By homeMenu = By.xpath("//a[@routerlink='/home-admin']");
-    private final By sectorsMenu = By.cssSelector(".menu-item[routerlink='/adminstration']"); // اسمها صح
-    private final By tasksBoard = By.xpath("//a[@routerlink='/tasksboard']");
-    private final By roles = By.xpath("//a[@routerlink='/rolls']");
-    private final By chat = By.xpath("//a[@routerlink='/chat']");
-    private final By settings = By.xpath("//a[@routerlink='/setting']");
+    private final By homeMenu    = By.xpath("//a[@routerlink='/home-admin']");
+    private final By sectorsMenu = By.xpath("//a[@routerlink='/adminstration']");
+    private final By tasksBoard  = By.xpath("//a[@routerlink='/tasksboard']");
+    private final By roles       = By.xpath("//a[@routerlink='/rolls']");
+    private final By chat        = By.xpath("//a[@routerlink='/chat']");
+    private final By settings    = By.xpath("//a[@routerlink='/setting']");
     private final By fileManager = By.xpath("//a[@routerlink='/file-manager']");
-    private final By usersMenu = By.xpath("//a[@routerlink='/users']");
+    private final By usersMenu   = By.xpath("//a[@routerlink='/users']");
 
-    // ===== Helper: click dropdown then item (stable for Angular) =====
-    private void clickDropdownItem(By dropdownBtn, By menuItem) {
-        // Click dropdown button using JS click for stability
-        jsClick(dropdownBtn);
-
-        // Scroll to menu item and JS click for stability
-        scrollTo(menuItem);
-        jsClick(menuItem);
-
-        waitForPageToBeReady();
+    public NavBarPage() {
+        super();
     }
 
-    // ===== Navigation methods =====
+    // ===== Helper =====
+    private void clickDropdownItem(By menuItem) {
+        jsClick(notificationDropdown);
+        scrollTo(menuItem);
+        jsClick(menuItem);
+        waitForPageToBeReady();
+        logger.info("✅ تم الانتقال بنجاح إلى: {}", menuItem);
+    }
+
+    // ===== Navigation Methods =====
     public void goToHome() {
-        clickDropdownItem(notificationDropdown, homeMenu);
+        clickDropdownItem(homeMenu);
     }
 
     public void goToSectors() {
-        clickDropdownItem(notificationDropdown, sectorsMenu);
+        clickDropdownItem(sectorsMenu);
     }
 
     public void goToTasksBoard() {
-        clickDropdownItem(notificationDropdown, tasksBoard);
+        clickDropdownItem(tasksBoard);
     }
 
     public void goToRoles() {
-        clickDropdownItem(notificationDropdown, roles);
+        clickDropdownItem(roles);
     }
 
     public void goToChat() {
-        clickDropdownItem(notificationDropdown, chat);
+        clickDropdownItem(chat);
     }
 
     public void goToSettings() {
-        clickDropdownItem(notificationDropdown, settings);
+        clickDropdownItem(settings);
     }
 
     public void goToFileManager() {
-        clickDropdownItem(notificationDropdown, fileManager);
+        clickDropdownItem(fileManager);
     }
 
     public void goToUsers() {
-        clickDropdownItem(notificationDropdown, usersMenu);
+        clickDropdownItem(usersMenu);
     }
 }

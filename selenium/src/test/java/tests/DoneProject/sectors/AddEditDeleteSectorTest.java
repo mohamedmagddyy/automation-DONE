@@ -1,73 +1,51 @@
 package tests.DoneProject.sectors;
 
 import com.DoneProject.Pages.LoginPage;
+import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.SectorsPage;
-import com.DoneProject.drivers.WebDriverFactory;
-import com.DoneProject.utils.Urls;
-import org.openqa.selenium.WebDriver;
+import tests.DoneProject.BaseTest;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class AddEditDeleteSectorTest {
-
-    WebDriver driver;
-    SectorsPage sectorsPage;
-
-    String sectorName = "Automation Sector 3";
-    String updatedSectorName = "Automation Sector Updated 3";
-    String managerName = "اسماعيل";
-
-    @BeforeClass
-    public void setUp() {
-        driver = WebDriverFactory.getDriver();
-        sectorsPage = new SectorsPage();
-
-        driver.get(Urls.BASE_URL + "/login");
-
-        new LoginPage().login("ismealadmin", "123456");
-    }
+public class AddEditDeleteSectorTest extends BaseTest {
 
     @Test(priority = 1)
     public void addSectorSuccessfully() {
+        new LoginPage().login("ismealadmin", "123456");
 
-        sectorsPage.addSector(sectorName);
-        sectorsPage.selectManagerByName(managerName);
+        NavBarPage  navBar      = new NavBarPage();
+        SectorsPage sectorsPage = new SectorsPage();
 
-        String actualMessage = sectorsPage.getToastMessage();
+        navBar.goToSectors();
+        sectorsPage.addSector("Automation Sector 3");
+        sectorsPage.selectManagerByName("اسماعيل");
 
-        Assert.assertEquals(
-                actualMessage,
-                "Add Done",
-                "Add Done"
-        );
+        Assert.assertEquals(sectorsPage.getToastMessage(), "Add Done", "❌ Add toast خاطئ");
     }
 
-    @Test(priority = 2, dependsOnMethods = "addSectorSuccessfully")
+    @Test(priority = 2)
     public void editSectorSuccessfully() {
+        new LoginPage().login("ismealadmin", "123456");
 
-        sectorsPage.editSector(sectorName, updatedSectorName);
+        NavBarPage  navBar      = new NavBarPage();
+        SectorsPage sectorsPage = new SectorsPage();
 
-        String actualToast = sectorsPage.getToastMessage();
+        navBar.goToSectors();
+        sectorsPage.editSector("Automation Sector 3", "Automation Sector Updated 3");
 
-        Assert.assertEquals(
-                actualToast,
-                "EditDone",
-                "EditDone"
-        );
+        Assert.assertEquals(sectorsPage.getToastMessage(), "EditDone", "❌ Edit toast خاطئ");
     }
 
-    @Test(priority = 3, dependsOnMethods = "editSectorSuccessfully")
+    @Test(priority = 3)
     public void deleteSectorSuccessfully() {
+        new LoginPage().login("ismealadmin", "123456");
 
-        sectorsPage.deleteSector(updatedSectorName);
+        NavBarPage  navBar      = new NavBarPage();
+        SectorsPage sectorsPage = new SectorsPage();
 
-        String actualToast = sectorsPage.getToastMessage();
+        navBar.goToSectors();
+        sectorsPage.deleteSector("Automation Sector Updated 3");
 
-        Assert.assertEquals(
-                actualToast,
-                "Delete Done",
-                "Delete Done"
-        );
+        Assert.assertEquals(sectorsPage.getToastMessage(), "Delete Done", "❌ Delete toast خاطئ");
     }
 }

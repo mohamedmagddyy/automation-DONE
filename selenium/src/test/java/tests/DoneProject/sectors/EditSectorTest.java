@@ -1,42 +1,24 @@
 package tests.DoneProject.sectors;
 
 import com.DoneProject.Pages.LoginPage;
+import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.SectorsPage;
-import com.DoneProject.drivers.WebDriverFactory;
-import com.DoneProject.utils.Urls;
-import org.openqa.selenium.WebDriver;
+import tests.DoneProject.BaseTest;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class EditSectorTest {
-
-    WebDriver driver;
-    SectorsPage sectorsPage;
-
-    @BeforeClass
-    public void setUp() {
-        driver = WebDriverFactory.getDriver();
-
-        sectorsPage = new SectorsPage();
-
-        driver.get(Urls.BASE_URL + "/login");
-
-        new LoginPage().login("ismealadmin", "123456");
-    }
+public class EditSectorTest extends BaseTest {
 
     @Test
     public void editSectorSuccessfully() {
+        new LoginPage().login("ismealadmin", "123456");
 
-        String oldName = "Automation Sector";
-        String newName = "Automation Sector Updated";
+        NavBarPage  navBar      = new NavBarPage();
+        SectorsPage sectorsPage = new SectorsPage();
 
-        String actualToast = sectorsPage.getToastMessage();
+        navBar.goToSectors();
+        sectorsPage.editSector("Automation Sector", "Automation Sector Updated");
 
-        Assert.assertEquals(
-                actualToast,
-                "Sector added successfully",
-                "❌ Wrong toast message"
-        );
+        Assert.assertEquals(sectorsPage.getToastMessage(), "EditDone", "❌ Wrong toast");
     }
 }

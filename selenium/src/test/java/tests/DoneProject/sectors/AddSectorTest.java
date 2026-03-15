@@ -1,52 +1,25 @@
 package tests.DoneProject.sectors;
 
 import com.DoneProject.Pages.LoginPage;
+import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.SectorsPage;
-import com.DoneProject.drivers.WebDriverFactory;
-import com.DoneProject.utils.Urls;
-import org.openqa.selenium.WebDriver;
+import tests.DoneProject.BaseTest;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class AddSectorTest {
-
-    WebDriver driver;
-    SectorsPage sectorsPage;
-
-    @BeforeClass
-    public void setUp() {
-        driver = WebDriverFactory.getDriver();
-
-        sectorsPage = new SectorsPage();
-
-        driver.get(Urls.BASE_URL + "/login");
-        new LoginPage().login("ismealadmin", "123456");
-    }
+public class AddSectorTest extends BaseTest {
 
     @Test
     public void addSectorSuccessfully() {
+        new LoginPage().login("ismealadmin", "123456");
 
-        String sectorName = "Automation Sector 2";
-        String managerName = "اسماعيل";
+        NavBarPage  navBar      = new NavBarPage();
+        SectorsPage sectorsPage = new SectorsPage();
 
-        // Add sector name
-        sectorsPage.addSector(sectorName);
+        navBar.goToSectors();
+        sectorsPage.addSector("Automation Sector 2");
+        sectorsPage.selectManagerByName("اسماعيل");
 
-        // Select manager + Save
-        sectorsPage.selectManagerByName(managerName);
-
-        String actualMessage = sectorsPage.getToastMessage();
-
-
-        String actualToast = sectorsPage.getToastMessage();
-
-        Assert.assertEquals(
-                actualToast,
-                "Sector added successfully",
-                "❌ Wrong toast message"
-        );
-
-
+        Assert.assertEquals(sectorsPage.getToastMessage(), "Add Done", "❌ Wrong toast");
     }
 }

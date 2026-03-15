@@ -1,35 +1,22 @@
 package tests.DoneProject.projects;
 
 import com.DoneProject.Pages.LoginPage;
+import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.ProjectsPage;
-import com.DoneProject.drivers.WebDriverFactory;
-import com.DoneProject.utils.Urls;
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.BeforeClass;
+import tests.DoneProject.BaseTest;
 import org.testng.annotations.Test;
 
-public class DeleteProjectTest {
-
-    WebDriver driver;
-    ProjectsPage projectsPage;
-
-    @BeforeClass
-    public void setUp() {
-        driver = WebDriverFactory.getDriver();
-        projectsPage = new ProjectsPage();
-
-        driver.get(Urls.BASE_URL + "/login");
-        new LoginPage().login("ismealadmin", "123456");
-    }
+public class DeleteProjectTest extends BaseTest {
 
     @Test
     public void deleteProjectSuccessfully() {
-        String sectorName = "Automation Sector Updated";
-        String projectName = "Automation Project 122";
+        new LoginPage().login("ismealadmin", "123456");
 
-        projectsPage.openSectorByName(sectorName);
-        projectsPage.deleteProject(projectName);
+        NavBarPage   navBar       = new NavBarPage();
+        ProjectsPage projectsPage = new ProjectsPage();
 
-
+        navBar.goToSectors();
+        projectsPage.openSectorByName("Automation Sector Updated");
+        projectsPage.deleteProject("Automation Project 122");
     }
 }

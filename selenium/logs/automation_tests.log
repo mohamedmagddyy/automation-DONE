@@ -39,3 +39,133 @@
 [2026-03-11 12:33:56] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
 [2026-03-11 12:33:56] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار Toast أن يختفي...
 [2026-03-11 12:33:56] [INFO ] com.DoneProject.Pages.BasePage - ✅ Toast اختفى بنجاح
+[2026-03-15 13:30:00] [INFO ] com.DoneProject.utils.ConfigReader - ℹ️ config.properties غير موجود — يتم استخدام القيم الافتراضية
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
+[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.id: notifictions
+[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.id: notifictions
+[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي للتمرير: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - 📜 جاري التمرير إلى العنصر: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم التمرير بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:30:26] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:30:27] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:30:27] [INFO ] com.DoneProject.Pages.NavBarPage - ✅ تم الانتقال بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:30:27] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:30:28] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:30:28] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: .btn-add
+[2026-03-15 13:30:29] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: .btn-add
+[2026-03-15 13:30:29] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: name
+[2026-03-15 13:30:29] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: Automation RoleEeewwewe
+[2026-03-15 13:30:30] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [Automation RoleEeewwewe] في العنصر: By.id: name
+[2026-03-15 13:30:30] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
+[2026-03-15 13:30:30] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
+[2026-03-15 13:30:30] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار Toast أن يختفي...
+[2026-03-15 13:30:30] [INFO ] com.DoneProject.Pages.BasePage - ✅ Toast اختفى بنجاح
+[2026-03-15 13:30:30] [INFO ] com.DoneProject.Pages.RolesPage - ✅ تم إضافة الدور: Automation RoleEeewwewe
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
+[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.id: notifictions
+[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.id: notifictions
+[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي للتمرير: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - 📜 جاري التمرير إلى العنصر: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم التمرير بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:37:35] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.NavBarPage - ✅ تم الانتقال بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: .btn-add
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: .btn-add
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: name
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: Automation RoleEeewwewe
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [Automation RoleEeewwewe] في العنصر: By.id: name
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار Toast أن يختفي...
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.BasePage - ✅ Toast اختفى بنجاح
+[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.RolesPage - ✅ تم إضافة الدور: Automation RoleEeewwewe
+[2026-03-15 13:41:10] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-15 13:41:10] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-15 13:41:10] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:41:10] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:41:10] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
+[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.id: notifictions
+[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.id: notifictions
+[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي للتمرير: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - 📜 جاري التمرير إلى العنصر: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم التمرير بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:41:13] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:41:14] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:41:14] [INFO ] com.DoneProject.Pages.NavBarPage - ✅ تم الانتقال بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
+[2026-03-15 13:41:14] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
+[2026-03-15 13:41:14] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
+[2026-03-15 13:41:14] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: .btn-add
+[2026-03-15 13:41:15] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: .btn-add
+[2026-03-15 13:41:15] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: name
+[2026-03-15 13:41:15] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: Automation RoleEeewwewe
+[2026-03-15 13:41:16] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [Automation RoleEeewwewe] في العنصر: By.id: name
+[2026-03-15 13:41:16] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
+[2026-03-15 13:41:16] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
+[2026-03-15 13:41:16] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار Toast أن يختفي...
+[2026-03-15 13:41:16] [INFO ] com.DoneProject.Pages.BasePage - ✅ Toast اختفى بنجاح
+[2026-03-15 13:41:16] [INFO ] com.DoneProject.Pages.RolesPage - ✅ تم إضافة الدور: Automation RoleEeewwewe

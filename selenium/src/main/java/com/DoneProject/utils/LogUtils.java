@@ -5,7 +5,8 @@ import org.apache.logging.log4j.Logger;
 
 public class LogUtils {
 
-    public static final Logger log =
-            LogManager.getLogger(LogUtils.class);
+    // ✅ منع إنشاء instance — Utility class
+    private LogUtils() {}
 
+    public static final Logger log = LogManager.getLogger(LogUtils.class);
 }

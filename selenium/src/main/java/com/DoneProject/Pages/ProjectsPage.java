@@ -1,31 +1,27 @@
 package com.DoneProject.Pages;
 
-import com.DoneProject.drivers.WebDriverFactory;
-import org.openqa.selenium.*;
-import org.openqa.selenium.devtools.DevTools;
-import org.openqa.selenium.devtools.HasDevTools;
-//import org.openqa.selenium.devtools.v137.network.Network;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
-import java.util.Optional;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 public class ProjectsPage extends BasePage {
-    WebDriver driver;
 
-    public ProjectsPage() {
-        driver = WebDriverFactory.getDriver();
-    }
-
+    private static final Logger logger = LoggerFactory.getLogger(ProjectsPage.class);
 
     // ===== Static Locators =====
-    private final By addButton = By.id("dropdownMenuButton1");
-    private final By newProjectOption = By.xpath("//a[normalize-space()='New project']");
-    private final By projectNameInput = By.id("projectName");
-    private final By saveButton = By.cssSelector("button.btn.btn-primary[type='submit']");
+    private final By addButton          = By.id("dropdownMenuButton1");
+    private final By newProjectOption   = By.xpath("//a[normalize-space()='New project']");
+    private final By projectNameInput   = By.id("projectName");
     private final By confirmDeleteButton = By.xpath("//div[contains(@class,'modal') and contains(@class,'show')]//button[normalize-space()='Yes']");
+
+    public ProjectsPage() {
+        super();
+    }
 
     // ===== Dynamic Locators =====
     private By projectCardByName(String projectName) {
@@ -43,68 +39,69 @@ public class ProjectsPage extends BasePage {
                 + projectName + "']]//span[normalize-space()='" + action + "']");
     }
 
+    // ===== Open Sector =====
     public void openSectorByName(String sectorName) {
-        By sectorLink = By.xpath(
-                "//a[.//h4[normalize-space()='" + sectorName + "']]"
-        );
-
+        By sectorLink = By.xpath("//a[.//h4[normalize-space()='" + sectorName + "']]");
         waitForPageToBeReady();
         click(sectorLink);
         waitForPageToBeReady();
+        logger.info("✅ تم فتح السيكتور: {}", sectorName);
     }
 
     // ===== Add Project =====
+    // ✅ إصلاح: الـ app يعتمد على auto-save — لا يوجد save button
     public void addProject(String projectName) {
         waitForPageToBeReady();
-
         click(addButton);
         click(newProjectOption);
-
-        typeProjectNameAndSave(projectName);
-    }
-    private void typeProjectNameAndSave(String projectName) {
-        // مسح النص القديم + كتابة النص الجديد
-        ((JavascriptExecutor) driver)
-                .executeScript("arguments[0].value='';", driver.findElement(projectNameInput));
-        ((JavascriptExecutor) driver)
-                .executeScript("arguments[0].value=arguments[1];", driver.findElement(projectNameInput), projectName);
-
-        // force blur → لتفعيل Auto-Save
-        ((JavascriptExecutor) driver)
-                .executeScript("arguments[0].blur();", driver.findElement(projectNameInput));
-
-        // انتظار ظهور المشروع في الجدول → تأكيد Auto-Save
-        new WebDriverWait(driver, Duration.ofSeconds(5))
-                .until(ExpectedConditions.visibilityOfElementLocated(projectCardByName(projectName)));
+        typeAndAutoSave(projectName);
+        logger.info("✅ تم إضافة المشروع: {}", projectName);
     }
 
     // ===== Edit Project =====
+    // ✅ إصلاح: انتظار ظهور خيار Edit بعد فتح الـ dropdown
     public void editProject(String oldName, String newName) {
         waitForPageToBeReady();
-
         click(actionButton(oldName));
-        click(actionOption(oldName, "Edit"));
 
-        // مسح القديم بطريقة آمنة
-//        projectNameInput.sendKeys(Keys.chord(Keys.CONTROL, "a"));
-//        projectNameInput.sendKeys(Keys.DELETE);
+        By editOption = actionOption(oldName, "Edit");
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.visibilityOfElementLocated(editOption));
+        click(editOption);
 
-        // كتابة الاسم الجديد + Auto-Save
-        typeProjectNameAndSave(newName);
+        typeAndAutoSave(newName);
+        logger.info("✅ تم تعديل المشروع من {} إلى {}", oldName, newName);
     }
 
     // ===== Delete Project =====
     public void deleteProject(String projectName) {
         waitForPageToBeReady();
-
         click(actionButton(projectName));
         click(actionOption(projectName, "Delete"));
         click(confirmDeleteButton);
         waitForToastToDisappear();
+        logger.info("✅ تم حذف المشروع: {}", projectName);
     }
 
-    // ===== Assertion Helper =====
+    // ===== Auto-Save Helper =====
+    private void typeAndAutoSave(String projectName) {
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.visibilityOfElementLocated(projectNameInput));
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].value='';", driver.findElement(projectNameInput));
+        js.executeScript("arguments[0].value=arguments[1];", driver.findElement(projectNameInput), projectName);
+        js.executeScript("arguments[0].dispatchEvent(new Event('input', { bubbles: true }));",
+                driver.findElement(projectNameInput));
+        js.executeScript("arguments[0].blur();", driver.findElement(projectNameInput));
+
+        // انتظار ظهور الكارد للتأكد من الحفظ
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.visibilityOfElementLocated(projectCardByName(projectName)));
+    }
+
+    // ===== Toast Message =====
     public String getToastMessage() {
-        return getText(toastSuccess).trim();
+        return super.getToastMessage();
     }
 }

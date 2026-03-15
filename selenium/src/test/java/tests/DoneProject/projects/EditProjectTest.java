@@ -1,37 +1,22 @@
 package tests.DoneProject.projects;
 
 import com.DoneProject.Pages.LoginPage;
+import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.ProjectsPage;
-import com.DoneProject.drivers.WebDriverFactory;
-import com.DoneProject.utils.Urls;
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.BeforeClass;
+import tests.DoneProject.BaseTest;
 import org.testng.annotations.Test;
 
-public class EditProjectTest {
-
-    WebDriver driver;
-    ProjectsPage projectsPage;
-
-    @BeforeClass
-    public void setUp() {
-        driver = WebDriverFactory.getDriver();
-        projectsPage = new ProjectsPage();
-
-        driver.get(Urls.BASE_URL + "/login");
-        new LoginPage().login("ismealadmin", "123456");
-    }
+public class EditProjectTest extends BaseTest {
 
     @Test
     public void editProjectSuccessfully() {
+        new LoginPage().login("ismealadmin", "123456");
 
-        String sectorName = "Automation Sector Updated";
-        String oldName = "Automation Project 1";
-        String newName = "Automation Project Updated";
+        NavBarPage   navBar       = new NavBarPage();
+        ProjectsPage projectsPage = new ProjectsPage();
 
-        projectsPage.openSectorByName(sectorName);
-        projectsPage.editProject(oldName, newName);
-
-
+        navBar.goToSectors();
+        projectsPage.openSectorByName("Automation Sector Updated");
+        projectsPage.editProject("Automation Project 1", "Automation Project Updated");
     }
 }

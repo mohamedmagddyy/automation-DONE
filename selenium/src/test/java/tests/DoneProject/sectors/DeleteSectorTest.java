@@ -1,42 +1,24 @@
 package tests.DoneProject.sectors;
 
 import com.DoneProject.Pages.LoginPage;
+import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.SectorsPage;
-import com.DoneProject.drivers.WebDriverFactory;
-import com.DoneProject.utils.Urls;
-import org.openqa.selenium.WebDriver;
+import tests.DoneProject.BaseTest;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class DeleteSectorTest {
-
-    WebDriver driver;
-    SectorsPage sectorsPage;
-
-    @BeforeClass
-    public void setUp() {
-        driver = WebDriverFactory.getDriver();
-
-        sectorsPage = new SectorsPage();
-
-        driver.get(Urls.BASE_URL + "/login");
-        new LoginPage().login("ismealadmin", "123456");
-    }
+public class DeleteSectorTest extends BaseTest {
 
     @Test
     public void deleteSectorSuccessfully() {
+        new LoginPage().login("ismealadmin", "123456");
 
-        String sectorName = "Automation Sector2";
+        NavBarPage  navBar      = new NavBarPage();
+        SectorsPage sectorsPage = new SectorsPage();
 
-        sectorsPage.deleteSector(sectorName);
+        navBar.goToSectors();
+        sectorsPage.deleteSector("Automation Sector 2");
 
-        String actualToast = sectorsPage.getToastMessage();
-
-        Assert.assertEquals(
-                actualToast,
-                "Sector added successfully",
-                "❌ Wrong toast message"
-        );
+        Assert.assertEquals(sectorsPage.getToastMessage(), "Delete Done", "❌ Wrong toast");
     }
 }

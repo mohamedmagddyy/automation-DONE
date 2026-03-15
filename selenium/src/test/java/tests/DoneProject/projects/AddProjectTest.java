@@ -3,37 +3,21 @@ package tests.DoneProject.projects;
 import com.DoneProject.Pages.LoginPage;
 import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.ProjectsPage;
-import com.DoneProject.drivers.WebDriverFactory;
-import com.DoneProject.utils.Urls;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.BeforeClass;
+import tests.DoneProject.BaseTest;
 import org.testng.annotations.Test;
 
-public class AddProjectTest {
-
-    WebDriver driver;
-    ProjectsPage projectsPage;
-
-
-    @BeforeClass
-    public void setUp() {
-        driver = WebDriverFactory.getDriver();
-        projectsPage = new ProjectsPage();
-
-        driver.get(Urls.BASE_URL + "/login");
-        new LoginPage().login("ismealadmin", "123456");
-    }
+public class AddProjectTest extends BaseTest {
 
     @Test
     public void addProjectSuccessfully() {
-        String sectorName = "Automation Sector Updated";
-        String projectName = "Automation Project newwww";
+        // ✅ حدد الـ user اللي هيرن بيه التيست ده
+        new LoginPage().login("ismealadmin", "123456");
 
-        projectsPage.openSectorByName(sectorName);
-        projectsPage.addProject(projectName);
-        driver.navigate().back();  // Navigate Back
+        NavBarPage   navBar       = new NavBarPage();
+        ProjectsPage projectsPage = new ProjectsPage();
 
-
+        navBar.goToSectors();
+        projectsPage.openSectorByName("Automation Sector Updated");
+        projectsPage.addProject("Automation Project New");
     }
 }
