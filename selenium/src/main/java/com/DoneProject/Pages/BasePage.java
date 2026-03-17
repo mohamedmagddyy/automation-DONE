@@ -13,14 +13,20 @@ public class BasePage {
     protected WebDriver driver;
     protected ActionBot actionBot;
 
-    // ✅ Locators للـ Toast
-    protected By toastSuccess = By.cssSelector(".toast-success");
-    protected By toastAny     = By.cssSelector(".toast-success, .toast-error, .toast-info, .toast-warning");
+    // ✅ Locators للـ Toast (Angular ngx-toastr)
+    protected By toastContainer = By.id("toast-container");
+    protected By toastSuccess   = By.cssSelector(".toast-success");
+    protected By toastError     = By.cssSelector(".toast-error");
+    protected By toastInfo      = By.cssSelector(".toast-info");
+    protected By toastWarning   = By.cssSelector(".toast-warning");
+    
+    // أي رسالة تظهر داخل الكونتينر
+    protected By toastAny = By.cssSelector("#toast-container .ngx-toastr, #toast-container .toast-message, .toast-success, .toast-error");
 
     private static final Logger logger = LoggerFactory.getLogger(BasePage.class);
 
     public BasePage() {
-        this.driver    = WebDriverFactory.getDriver();
+        this.driver = WebDriverFactory.getDriver();
         this.actionBot = new ActionBot(driver);
         logger.info("✅ تم إنشاء BasePage بنجاح");
     }
@@ -52,38 +58,56 @@ public class BasePage {
 
     // ================= Wait for Page Ready =================
     protected void waitForPageToBeReady() {
-        logger.info("⏳ انتظار الصفحة لتكون جاهزة...");
+        logger.debug("⏳ انتظار الصفحة لتكون جاهزة...");
         WaitUtils.waitForPageToBeReady(driver, 20);
-        logger.info("✅ الصفحة جاهزة");
+        logger.debug("✅ الصفحة جاهزة");
     }
 
     // ================= Wait for Toast to Appear =================
-    // ✅ إضافة جديدة: ننتظر ظهور الـ toast أولاً قبل قراءته
-    protected void waitForToastToAppear() {
-        logger.info("⏳ انتظار ظهور Toast...");
-        WaitUtils.waitForElementToBeVisible(driver, toastSuccess, 10);
-        logger.info("✅ Toast ظهر");
+    // ✅ ننتظر ظهور الكونتينر أو أي رسالة بداخله
+    public void waitForToastToAppear() {
+        logger.debug("⏳ انتظار ظهور Toast...");
+        WaitUtils.waitForElementToBeVisible(driver, toastAny, 10);
+        logger.debug("✅ Toast ظهر");
     }
 
-    // ================= Get Toast Message =================
-    // ✅ إضافة جديدة: تقرأ الـ toast بعد ما تنتظر ظهوره
-    protected String getToastMessage() {
+    // ================= Get All Toast Messages =================
+    // ✅ تجيب كل الرسائل اللي ظاهرة حالياً في ليست
+    public java.util.List<String> getAllToastMessages() {
         waitForToastToAppear();
-        return getText(toastSuccess).trim();
+        java.util.List<org.openqa.selenium.WebElement> toasts = driver.findElements(toastAny);
+        java.util.List<String> messages = new java.util.ArrayList<>();
+        for (org.openqa.selenium.WebElement toast : toasts) {
+            String txt = toast.getText().trim();
+            if (!txt.isEmpty()) {
+                messages.add(txt);
+                logger.debug("🔔 Toast Message Found: {}", txt);
+            }
+        }
+        // طباعة كل الرسايل مرة واحدة في الـ log للوضوح
+        if(!messages.isEmpty()){
+            logger.info("📋 Intercepted Toasts: {}", messages);
+        }
+        return messages;
+    }
+
+    // ================= Get Toast Message (Single/First) =================
+    public String getToastMessage() {
+        java.util.List<String> messages = getAllToastMessages();
+        return messages.isEmpty() ? "" : messages.get(0);
     }
 
     // ================= Wait for Toast to Disappear =================
-    protected void waitForToastToDisappear() {
-        logger.info("⏳ انتظار Toast أن يختفي...");
-        WaitUtils.waitForElementToDisappear(driver, toastSuccess, 10);
-        logger.info("✅ Toast اختفى بنجاح");
+    public void waitForToastToDisappear() {
+        logger.debug("⏳ انتظار Toast أن يختفي...");
+        WaitUtils.waitForElementToDisappear(driver, toastContainer, 10);
+        logger.debug("✅ Toast اختفى بنجاح");
     }
 
     // ================= Wait for Toast then Disappear =================
-    // ✅ إضافة جديدة: مفيدة لما تحتاج تقرأ الـ toast وبعدين تنتظر اختفاؤه
-    protected String readToastAndWaitToDisappear() {
-        String message = getToastMessage();
+    public java.util.List<String> readAllToastsAndWaitToDisappear() {
+        java.util.List<String> messages = getAllToastMessages();
         waitForToastToDisappear();
-        return message;
+        return messages;
     }
 }

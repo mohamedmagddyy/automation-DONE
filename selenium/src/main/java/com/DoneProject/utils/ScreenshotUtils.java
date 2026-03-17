@@ -22,32 +22,35 @@ public class ScreenshotUtils {
     private ScreenshotUtils() {}
 
     // ================= Take Screenshot =================
-    public static void takeScreenshot(String testName) {
+    public static void takeScreenshot(String className, String testName) {
         WebDriver driver = WebDriverFactory.getDriver();
 
         if (driver == null) {
-            logger.warn("⚠️ لا يوجد driver نشط — تعذّر أخذ screenshot");
+            logger.warn("⚠️ No active driver — cannot take screenshot");
             return;
         }
 
         try {
-            // ✅ تنسيق التاريخ آمن على ويندوز (بدون : في الاسم)
             String timestamp = LocalDateTime.now()
                     .format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss"));
 
-            String fileName = SCREENSHOTS_DIR + testName + "_" + timestamp + ".png";
+            // ✅ إنشاء المسار: screenshots/ClassName/TestName_Timestamp.png
+            String folderPath = SCREENSHOTS_DIR + className + "/";
+            String filePath   = folderPath + testName + "_" + timestamp + ".png";
 
             File src  = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            File dest = new File(fileName);
+            File dest = new File(filePath);
 
-            // ✅ إنشاء الـ directory لو مش موجود
-            dest.getParentFile().mkdirs();
+            // ✅ إنشاء المجلدات لو مش موجودة
+            if (dest.getParentFile().mkdirs()) {
+                logger.debug("📁 Created directory: {}", folderPath);
+            }
 
             FileUtils.copyFile(src, dest);
-            logger.info("✅ تم حفظ الـ screenshot: {}", fileName);
+            logger.info("📸 Screenshot saved: {}", filePath);
 
         } catch (IOException e) {
-            logger.error("❌ فشل حفظ الـ screenshot: {}", e.getMessage());
+            logger.error("❌ Failed to save screenshot: {}", e.getMessage());
         }
     }
 }

@@ -3,7 +3,6 @@ com\DoneProject\Pages\ProjectsPage.class
 com\DoneProject\Pages\TasksPage.class
 com\DoneProject\utils\WaitUtils.class
 com\DoneProject\Pages\RolesPage.class
-com\DoneProject\utils\DriverManager.class
 com\DoneProject\utils\Urls.class
 com\DoneProject\helpers\ActionBot.class
 com\DoneProject\helpers\DropdownHelper.class

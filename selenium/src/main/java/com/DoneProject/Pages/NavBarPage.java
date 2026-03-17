@@ -26,44 +26,47 @@ public class NavBarPage extends BasePage {
     }
 
     // ===== Helper =====
-    private void clickDropdownItem(By menuItem) {
+    private void clickDropdownItem(By menuItem, String pageName) {
+        logger.info("🧭 Navigating to: {}", pageName);
         jsClick(notificationDropdown);
         scrollTo(menuItem);
         jsClick(menuItem);
         waitForPageToBeReady();
-        logger.info("✅ تم الانتقال بنجاح إلى: {}", menuItem);
     }
 
-    // ===== Navigation Methods =====
+    // ===== Navigation Methods (Fluent) =====
     public void goToHome() {
-        clickDropdownItem(homeMenu);
+        clickDropdownItem(homeMenu, "Home");
     }
 
-    public void goToSectors() {
-        clickDropdownItem(sectorsMenu);
+    public ProjectsPage goToSectors() {
+        clickDropdownItem(sectorsMenu, "Sectors/Projects");
+        return new ProjectsPage();
     }
 
     public void goToTasksBoard() {
-        clickDropdownItem(tasksBoard);
+        clickDropdownItem(tasksBoard, "Tasks Board");
     }
 
-    public void goToRoles() {
-        clickDropdownItem(roles);
+    public RolesPage goToRoles() {
+        clickDropdownItem(roles, "Roles Management");
+        return new RolesPage();
     }
 
     public void goToChat() {
-        clickDropdownItem(chat);
+        clickDropdownItem(chat, "Chat");
     }
 
     public void goToSettings() {
-        clickDropdownItem(settings);
+        clickDropdownItem(settings, "Settings");
     }
 
     public void goToFileManager() {
-        clickDropdownItem(fileManager);
+        clickDropdownItem(fileManager, "File Manager");
     }
 
-    public void goToUsers() {
-        clickDropdownItem(usersMenu);
+    public UsersPage goToUsers() {
+        clickDropdownItem(usersMenu, "Users Management");
+        return new UsersPage();
     }
 }

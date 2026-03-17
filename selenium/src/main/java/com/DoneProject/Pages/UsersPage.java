@@ -41,69 +41,66 @@ public class UsersPage extends BasePage {
         return By.xpath("//tr[td[normalize-space()='" + username + "']]//button");
     }
 
-    // ===== Click Add User =====
-    public void clickAddUser() {
+    // ===== Business Actions (Fluent) =====
+    public UsersPage clickAddUser() {
+        logger.info("➕ Opening Add User form");
         click(addUserButton);
         click(newUserOption);
-        logger.info("✅ تم فتح فورم إضافة مستخدم");
+        return this;
     }
 
-    // ===== Fill User Form =====
-    public void fillUserForm(String username, String fullname, String email, String phone,
-                             String dob, String role, String type, String hourlyCost,
-                             String employeeCode, String password) {
+    public UsersPage fillUserForm(String username, String fullname, String email, String phone,
+                                 String dob, String role, String type, String hourlyCost,
+                                 String employeeCode, String password) {
+        logger.info("📝 Filling User form: {}", username);
         sendKeys(userNameInput, username);
         sendKeys(userFullnameInput, fullname);
         sendKeys(userEmailInput, email);
         sendKeys(userPhoneInput, phone);
         sendKeys(userDateOfBirthInput, dob);
 
-        // Angular Dropdown للـ Role
         selectFromAngularDropdown(userRoleDropdown, role);
-
-        // HTML Select للـ Type
         new Select(driver.findElement(userTypeDropdown)).selectByVisibleText(type);
 
         sendKeys(userHourlyCost, hourlyCost);
         sendKeys(userEmployeeCode, employeeCode);
         sendKeys(userPasswordInput, password);
         sendKeys(userConfirmPassword, password);
-
-        logger.info("✅ تم ملء بيانات المستخدم: {}", username);
+        return this;
     }
 
-    // ===== Save User =====
-    public void saveUser() {
+    public UsersPage saveUser() {
+        logger.info("💾 Saving User");
         click(saveUserButton);
         waitForToastToDisappear();
-        logger.info("✅ تم حفظ المستخدم");
+        return this;
     }
 
-    // ===== Edit First User =====
-    public void editFirstUser(String newFullname) {
+    public UsersPage editFirstUser(String newFullname) {
+        logger.info("✏️ Editing First User -> {}", newFullname);
         click(firstUserActionBtn);
         click(editUserOption);
         sendKeys(userFullnameInput, newFullname);
         click(saveUserButton);
         waitForToastToDisappear();
-        logger.info("✅ تم تعديل المستخدم إلى: {}", newFullname);
+        return this;
     }
 
-    // ===== Delete User by Name =====
-    public void deleteUserByName(String username) {
+    public UsersPage deleteUserByName(String username) {
+        logger.info("🗑️ Deleting User: {}", username);
         click(userActionBtnByName(username));
         click(deleteUserOption);
         click(confirmDeleteUserBtn);
         waitForToastToDisappear();
-        logger.info("✅ تم حذف المستخدم: {}", username);
+        return this;
     }
 
-    // ===== Angular Dropdown Helper =====
+    // ===== Internal Helper (Reduced log) =====
     private void selectFromAngularDropdown(By dropdownLocator, String value) {
         WebElement dropdown = driver.findElement(dropdownLocator);
         dropdown.click();
         By option = By.xpath("//mat-option//span[normalize-space()='" + value + "']");
         driver.findElement(option).click();
-        logger.info("✅ تم اختيار {} من الـ dropdown", value);
+        logger.debug("✅ Angular Dropdown selected: {}", value);
     }
 }

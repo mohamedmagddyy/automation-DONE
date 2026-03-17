@@ -39,28 +39,27 @@ public class ProjectsPage extends BasePage {
                 + projectName + "']]//span[normalize-space()='" + action + "']");
     }
 
-    // ===== Open Sector =====
-    public void openSectorByName(String sectorName) {
+    // ===== Business Actions (Fluent) =====
+    public ProjectsPage openSectorByName(String sectorName) {
         By sectorLink = By.xpath("//a[.//h4[normalize-space()='" + sectorName + "']]");
+        logger.info("📂 Sector: {}", sectorName);
         waitForPageToBeReady();
         click(sectorLink);
         waitForPageToBeReady();
-        logger.info("✅ تم فتح السيكتور: {}", sectorName);
+        return this;
     }
 
-    // ===== Add Project =====
-    // ✅ إصلاح: الـ app يعتمد على auto-save — لا يوجد save button
-    public void addProject(String projectName) {
+    public ProjectsPage addProject(String projectName) {
+        logger.info("➕ Adding Project: {}", projectName);
         waitForPageToBeReady();
         click(addButton);
         click(newProjectOption);
         typeAndAutoSave(projectName);
-        logger.info("✅ تم إضافة المشروع: {}", projectName);
+        return this;
     }
 
-    // ===== Edit Project =====
-    // ✅ إصلاح: انتظار ظهور خيار Edit بعد فتح الـ dropdown
-    public void editProject(String oldName, String newName) {
+    public ProjectsPage editProject(String oldName, String newName) {
+        logger.info("✏️ Editing Project: {} -> {}", oldName, newName);
         waitForPageToBeReady();
         click(actionButton(oldName));
 
@@ -70,17 +69,17 @@ public class ProjectsPage extends BasePage {
         click(editOption);
 
         typeAndAutoSave(newName);
-        logger.info("✅ تم تعديل المشروع من {} إلى {}", oldName, newName);
+        return this;
     }
 
-    // ===== Delete Project =====
-    public void deleteProject(String projectName) {
+    public ProjectsPage deleteProject(String projectName) {
+        logger.info("🗑️ Deleting Project: {}", projectName);
         waitForPageToBeReady();
         click(actionButton(projectName));
         click(actionOption(projectName, "Delete"));
         click(confirmDeleteButton);
         waitForToastToDisappear();
-        logger.info("✅ تم حذف المشروع: {}", projectName);
+        return this;
     }
 
     // ===== Auto-Save Helper =====
@@ -95,13 +94,7 @@ public class ProjectsPage extends BasePage {
                 driver.findElement(projectNameInput));
         js.executeScript("arguments[0].blur();", driver.findElement(projectNameInput));
 
-        // انتظار ظهور الكارد للتأكد من الحفظ
         new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.visibilityOfElementLocated(projectCardByName(projectName)));
-    }
-
-    // ===== Toast Message =====
-    public String getToastMessage() {
-        return super.getToastMessage();
     }
 }

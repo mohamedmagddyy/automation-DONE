@@ -16,7 +16,8 @@ public class LoginPage extends BasePage {
         super();
     }
 
-    public void login(String username, String password) {
+    public NavBarPage login(String username, String password) {
+        logger.info("🔑 Attempting Login for User: {}", username);
         waitForPageToBeReady();
 
         sendKeys(usernameInput, username);
@@ -24,6 +25,7 @@ public class LoginPage extends BasePage {
         click(loginBtn);
 
         waitForPageToBeReady();
-        logger.info("✅ تم تسجيل الدخول بنجاح: {}", username);
+        logger.info("✅ Login successful");
+        return new NavBarPage();
     }
 }

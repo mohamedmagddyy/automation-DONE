@@ -35,46 +35,45 @@ public class RolesPage extends BasePage {
         return By.xpath("//label[contains(@class,'form-check-label') and normalize-space(.)='" + permissionName + "']");
     }
 
-    // ===== Add Role =====
-    public void addRole(String roleName) {
+    // ===== Business Actions (Fluent) =====
+    public RolesPage addRole(String roleName) {
+        logger.info("➕ Adding Role: {}", roleName);
         waitForPageToBeReady();
         click(addRoleBtn);
         sendKeys(roleNameInput, roleName);
         click(saveRoleBtn);
         waitForToastToDisappear();
-        logger.info("✅ تم إضافة الدور: {}", roleName);
+        return this;
     }
 
-    // ===== Edit Role Name =====
-    public void editRole(String oldName, String newName) {
+    public RolesPage editRole(String oldName, String newName) {
+        logger.info("✏️ Editing Role: {} -> {}", oldName, newName);
         waitForPageToBeReady();
         By editBtn = By.xpath("//tr[td[normalize-space()='" + oldName + "']]//button[@title='Edit']");
         click(editBtn);
         sendKeys(roleNameInput, newName);
         click(saveRoleBtn);
         waitForToastToDisappear();
-        logger.info("✅ تم تعديل الدور من {} إلى {}", oldName, newName);
+        return this;
     }
 
-    // ===== Open Edit Role Permissions =====
-    public void openEditRoleByName(String roleName) {
+    public RolesPage openEditRoleByName(String roleName) {
+        logger.info("🛡️ Modifying Permissions for Role: {}", roleName);
         waitForPageToBeReady();
         click(editRoleBtnByName(roleName));
-        logger.info("✅ تم فتح تعديل الدور: {}", roleName);
+        return this;
     }
 
-    // ===== Select Permissions and Move =====
-    public void selectPermissionsAndMove(String... permissionNames) {
+    public RolesPage selectPermissionsAndMove(String... permissionNames) {
         for (String permissionName : permissionNames) {
             try {
                 By labelBy = permissionLabelByName(permissionName);
-                WaitUtils.waitForElementToBeVisible(driver, labelBy, 20);
+                WaitUtils.waitForElementToBeVisible(driver, labelBy, 10);
                 WebElement label = driver.findElement(labelBy);
 
                 String checkboxId = label.getAttribute("for");
                 if (checkboxId != null && !checkboxId.isEmpty()) {
                     By checkboxBy = By.id(checkboxId);
-                    WaitUtils.waitForElementToBeClickable(driver, checkboxBy, 20);
                     actionBot.scrollTo(checkboxBy);
                     WebElement checkbox = driver.findElement(checkboxBy);
                     if (!checkbox.isSelected()) {
@@ -82,7 +81,6 @@ public class RolesPage extends BasePage {
                     }
                 } else {
                     By fallback = By.xpath("//label[normalize-space(.)='" + permissionName + "']//following::input[1]");
-                    WaitUtils.waitForElementToBeClickable(driver, fallback, 20);
                     actionBot.scrollTo(fallback);
                     WebElement checkbox = driver.findElement(fallback);
                     if (!checkbox.isSelected()) {
@@ -91,26 +89,27 @@ public class RolesPage extends BasePage {
                 }
 
                 actionBot.click(moveRightButton);
-                logger.info("✅ تم تحريك الصلاحية: {}", permissionName);
+                logger.debug("✅ Permission moved: {}", permissionName);
 
             } catch (Exception e) {
-                logger.warn("⚠️ تعذّر اختيار الصلاحية '{}': {}", permissionName, e.getMessage());
+                logger.warn("⚠️ Could not select permission '{}': {}", permissionName, e.getMessage());
             }
         }
+        return this;
     }
 
-    // ===== Save Permissions =====
-    public void clickSave() {
+    public RolesPage clickSave() {
+        logger.info("💾 Saving Permissions");
         click(saveButton);
-        logger.info("✅ تم حفظ الصلاحيات");
+        return this;
     }
 
-    // ===== Delete Role =====
-    public void deleteRoleByName(String roleName) {
+    public RolesPage deleteRoleByName(String roleName) {
+        logger.info("🗑️ Deleting Role: {}", roleName);
         waitForPageToBeReady();
         click(deleteRoleBtnByName(roleName));
         click(confirmDeleteBtn);
         waitForToastToDisappear();
-        logger.info("✅ تم حذف الدور: {}", roleName);
+        return this;
     }
 }

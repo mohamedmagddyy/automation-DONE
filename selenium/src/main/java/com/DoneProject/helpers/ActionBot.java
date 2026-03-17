@@ -28,9 +28,9 @@ public class ActionBot {
     // ================= Click =================
     public void click(By locator) {
         try {
-            logger.info("⏳ جاري الانتظار لعنصر قابل للنقر: {}", locator);
+            logger.debug("⏳ جاري الانتظار لعنصر قابل للنقر: {}", locator);
             wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
-            logger.info("✅ تم النقر على العنصر: {}", locator);
+            logger.info("✅ Clicked: {}", locator);
         } catch (Exception e) {
             logger.error("❌ فشل النقر على العنصر: {} - الخطأ: {}", locator, e.getMessage());
             throw e;
@@ -40,13 +40,13 @@ public class ActionBot {
     // ================= Type =================
     public void type(By locator, String text) {
         try {
-            logger.info("⏳ جاري الانتظار لعنصر مرئي: {}", locator);
+            logger.debug("⏳ جاري الانتظار لعنصر مرئي: {}", locator);
             WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-            logger.info("🔄 جاري مسح النص القديم والكتابة الجديدة: {}", text);
+            logger.debug("🔄 جاري مسح النص القديم والكتابة الجديدة: {}", text);
             element.sendKeys(Keys.CONTROL + "a");
             element.sendKeys(Keys.DELETE);
             element.sendKeys(text);
-            logger.info("✅ تم كتابة النص بنجاح: [{}] في العنصر: {}", text, locator);
+            logger.info("✅ Typed: [{}] in {}", text, locator);
         } catch (Exception e) {
             logger.error("❌ فشلت الكتابة في العنصر: {} - النص: {} - الخطأ: {}", locator, text, e.getMessage());
             throw e;
@@ -56,11 +56,11 @@ public class ActionBot {
     // ================= JS Click =================
     public void jsClick(By locator) {
         try {
-            logger.info("⏳ جاري الانتظار لعنصر موجود: {}", locator);
+            logger.debug("⏳ جاري الانتظار لعنصر موجود: {}", locator);
             WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
-            logger.info("⚙️ جاري النقر باستخدام JavaScript على: {}", locator);
+            logger.debug("⚙️ جاري النقر باستخدام JavaScript على: {}", locator);
             ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
-            logger.info("✅ تم النقر بـ JavaScript بنجاح على: {}", locator);
+            logger.info("✅ JS Clicked: {}", locator);
         } catch (Exception e) {
             logger.error("❌ فشل النقر بـ JavaScript على العنصر: {} - الخطأ: {}", locator, e.getMessage());
             throw e;
@@ -70,11 +70,10 @@ public class ActionBot {
     // ================= Scroll To =================
     public void scrollTo(By locator) {
         try {
-            logger.info("⏳ جاري الانتظار لعنصر مرئي للتمرير: {}", locator);
+            logger.debug("⏳ جاري الانتظار لعنصر مرئي للتمرير: {}", locator);
             WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-            logger.info("📜 جاري التمرير إلى العنصر: {}", locator);
             ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-            logger.info("✅ تم التمرير بنجاح إلى: {}", locator);
+            logger.debug("✅ Scrolled to: {}", locator);
         } catch (Exception e) {
             logger.error("❌ فشل التمرير إلى العنصر: {} - الخطأ: {}", locator, e.getMessage());
             throw e;
@@ -84,9 +83,9 @@ public class ActionBot {
     // ================= Get Text =================
     public String getText(By locator) {
         try {
-            logger.info("⏳ جاري الانتظار لعنصر مرئي لقراءة النص: {}", locator);
+            logger.debug("⏳ جاري الانتظار لعنصر مرئي لقراءة النص: {}", locator);
             String text = wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).getText();
-            logger.info("✅ تم قراءة النص من {}: [{}]", locator, text);
+            logger.debug("✅ Read text from {}: [{}]", locator, text);
             return text;
         } catch (Exception e) {
             logger.error("❌ فشل قراءة النص من العنصر: {} - الخطأ: {}", locator, e.getMessage());
@@ -97,10 +96,10 @@ public class ActionBot {
     // ================= Hover =================
     public void hover(By locator) {
         try {
-            logger.info("⏳ جاري التحويم على العنصر: {}", locator);
+            logger.debug("⏳ جاري التحويم على العنصر: {}", locator);
             WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
             actions.moveToElement(element).perform();
-            logger.info("✅ تم التحويم بنجاح على: {}", locator);
+            logger.info("✅ Hovered on: {}", locator);
         } catch (Exception e) {
             logger.error("❌ فشل التحويم على العنصر: {} - الخطأ: {}", locator, e.getMessage());
             throw e;
@@ -110,10 +109,10 @@ public class ActionBot {
     // ================= Double Click =================
     public void doubleClick(By locator) {
         try {
-            logger.info("⏳ جاري النقر المزدوج على العنصر: {}", locator);
+            logger.debug("⏳ جاري النقر المزدوج على العنصر: {}", locator);
             WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
             actions.doubleClick(element).perform();
-            logger.info("✅ تم النقر المزدوج بنجاح على: {}", locator);
+            logger.info("✅ Double Clicked: {}", locator);
         } catch (Exception e) {
             logger.error("❌ فشل النقر المزدوج على العنصر: {} - الخطأ: {}", locator, e.getMessage());
             throw e;
@@ -123,10 +122,10 @@ public class ActionBot {
     // ================= Right Click =================
     public void rightClick(By locator) {
         try {
-            logger.info("⏳ جاري النقر الأيمن على العنصر: {}", locator);
+            logger.debug("⏳ جاري النقر الأيمن على العنصر: {}", locator);
             WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
             actions.contextClick(element).perform();
-            logger.info("✅ تم النقر الأيمن بنجاح على: {}", locator);
+            logger.info("✅ Right Clicked: {}", locator);
         } catch (Exception e) {
             logger.error("❌ فشل النقر الأيمن على العنصر: {} - الخطأ: {}", locator, e.getMessage());
             throw e;
@@ -136,11 +135,11 @@ public class ActionBot {
     // ================= Drag And Drop =================
     public void dragAndDrop(By source, By target) {
         try {
-            logger.info("⏳ جاري السحب والإفلات من {} إلى {}", source, target);
+            logger.debug("⏳ جاري السحب والإفلات من {} إلى {}", source, target);
             WebElement src = wait.until(ExpectedConditions.visibilityOfElementLocated(source));
             WebElement trg = wait.until(ExpectedConditions.visibilityOfElementLocated(target));
             actions.dragAndDrop(src, trg).perform();
-            logger.info("✅ تم السحب والإفلات بنجاح من {} إلى {}", source, target);
+            logger.info("✅ Dragged from {} to {}", source, target);
         } catch (Exception e) {
             logger.error("❌ فشل السحب والإفلات من {} إلى {} - الخطأ: {}", source, target, e.getMessage());
             throw e;
