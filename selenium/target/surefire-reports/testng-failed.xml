@@ -3,32 +3,14 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="tests.DoneProject.projects.AddProjectTest">
+      <class name="tests.DoneProject.login.LoginTest">
         <methods>
-          <include name="addProjectSuccessfully"/>
+          <include name="testEmptyFieldsValidation"/>
           <include name="tearDown"/>
+          <include name="setupTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- tests.DoneProject.projects.AddProjectTest -->
-      <class name="tests.DoneProject.roles.AddRoleTest">
-        <methods>
-          <include name="addRoleWithSpecialChars"/>
-          <include name="addAndDeleteRoleLifecycle"/>
-          <include name="testAddRoleSuccessfully"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="addRoleAndEditPermissions"/>
-        </methods>
-      </class> <!-- tests.DoneProject.roles.AddRoleTest -->
-      <class name="tests.DoneProject.users.AddUserTest">
-        <methods>
-          <include name="addUserWithExistingEmail"/>
-          <include name="testAddUserSuccessfully"/>
-          <include name="addAndDeleteUserLifecycle"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- tests.DoneProject.users.AddUserTest -->
+      </class> <!-- tests.DoneProject.login.LoginTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

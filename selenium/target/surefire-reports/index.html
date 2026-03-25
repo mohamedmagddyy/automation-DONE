@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 8 failed,   </span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,45 +103,39 @@
                     <div class="method-list-content failed suite-Surefire_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.roles.AddRoleTest" class="method navigator-link" hash-for-method="addAndDeleteRoleLifecycle">addAndDeleteRoleLifecycle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.users.AddUserTest" class="method navigator-link" hash-for-method="addAndDeleteUserLifecycle">addAndDeleteUserLifecycle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.projects.AddProjectTest" class="method navigator-link" hash-for-method="addProjectSuccessfully">addProjectSuccessfully</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.roles.AddRoleTest" class="method navigator-link" hash-for-method="addRoleAndEditPermissions">addRoleAndEditPermissions</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.roles.AddRoleTest" class="method navigator-link" hash-for-method="addRoleWithSpecialChars">addRoleWithSpecialChars</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.users.AddUserTest" class="method navigator-link" hash-for-method="addUserWithExistingEmail">addUserWithExistingEmail</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.roles.AddRoleTest" class="method navigator-link" hash-for-method="testAddRoleSuccessfully">testAddRoleSuccessfully</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.users.AddUserTest" class="method navigator-link" hash-for-method="testAddUserSuccessfully">testAddUserSuccessfully</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.login.LoginTest" class="method navigator-link" hash-for-method="testEmptyFieldsValidation">testEmptyFieldsValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.login.LoginTest" class="method navigator-link" hash-for-method="testInvalidLogin(ismealadmin, wrongPass!)">testInvalidLogin(ismealadmin, wrongPass!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.login.LoginTest" class="method navigator-link" hash-for-method="testInvalidLogin( ,  )">testInvalidLogin( ,  )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.login.LoginTest" class="method navigator-link" hash-for-method="testInvalidLogin(invalidUser@example.com, wrongPass!)">testInvalidLogin(invalidUser@example.com, wrongPass!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.DoneProject.login.LoginTest" class="method navigator-link" hash-for-method="testSuccessfulLogin(ismealadmin, 123456)">testSuccessfulLogin(ismealadmin, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -156,219 +150,73 @@
           <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">tests.DoneProject.projects.AddProjectTest</span>
+              <span class="class-name">tests.DoneProject.login.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addProjectSuccessfully">
-                  </a> <!-- addProjectSuccessfully -->
-                  <span class="method-name">addProjectSuccessfully</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59066}, goog:processID: 19164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59066/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e0ad1c697c7f9ebfd049789241bbccf
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at com.DoneProject.helpers.ActionBot.jsClick(ActionBot.java:60)
-	at com.DoneProject.Pages.BasePage.jsClick(BasePage.java:40)
-	at com.DoneProject.Pages.NavBarPage.clickDropdownItem(NavBarPage.java:30)
-	at com.DoneProject.Pages.NavBarPage.goToSectors(NavBarPage.java:43)
-	at tests.DoneProject.projects.AddProjectTest.addProjectSuccessfully(AddProjectTest.java:19)
+                  <a name="testEmptyFieldsValidation">
+                  </a> <!-- testEmptyFieldsValidation -->
+                  <span class="method-name">testEmptyFieldsValidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected validation messages for empty fields not found! Actual: [] expected [true] but found [false]
+	at tests.DoneProject.login.LoginTest.testEmptyFieldsValidation(LoginTest.java:66)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
+                  <em>
+(Verify empty fields show validation errors)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-failed -->
-          <div class="suite-Surefire_suite-class-failed">
+          <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.DoneProject.roles.AddRoleTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">tests.DoneProject.login.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addAndDeleteRoleLifecycle">
-                  </a> <!-- addAndDeleteRoleLifecycle -->
-                  <span class="method-name">addAndDeleteRoleLifecycle</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60992}, goog:processID: 5204, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60992/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d9c659fb2160039c83f4a9f3bb51e74e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at com.DoneProject.helpers.ActionBot.jsClick(ActionBot.java:60)
-	at com.DoneProject.Pages.BasePage.jsClick(BasePage.java:40)
-	at com.DoneProject.Pages.NavBarPage.clickDropdownItem(NavBarPage.java:30)
-	at com.DoneProject.Pages.NavBarPage.goToRoles(NavBarPage.java:51)
-	at tests.DoneProject.roles.AddRoleTest.addAndDeleteRoleLifecycle(AddRoleTest.java:45)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
+                  <a name="testInvalidLogin(ismealadmin, wrongPass!)">
+                  </a> <!-- testInvalidLogin(ismealadmin, wrongPass!) -->
+                  <span class="method-name">testInvalidLogin</span>
+                  <span class="parameters">(ismealadmin,wrongPass!)</span>
+                  <em>
+(Verify invalid logins trigger error messages)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="addRoleAndEditPermissions">
-                  </a> <!-- addRoleAndEditPermissions -->
-                  <span class="method-name">addRoleAndEditPermissions</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56031}, goog:processID: 12448, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56031/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 524c4f0904b636de32d7fdf9270b3e98
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at com.DoneProject.helpers.ActionBot.jsClick(ActionBot.java:60)
-	at com.DoneProject.Pages.BasePage.jsClick(BasePage.java:40)
-	at com.DoneProject.Pages.NavBarPage.clickDropdownItem(NavBarPage.java:30)
-	at com.DoneProject.Pages.NavBarPage.goToRoles(NavBarPage.java:51)
-	at tests.DoneProject.roles.AddRoleTest.addRoleAndEditPermissions(AddRoleTest.java:62)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
+                  <a name="testInvalidLogin( ,  )">
+                  </a> <!-- testInvalidLogin( ,  ) -->
+                  <span class="method-name">testInvalidLogin</span>
+                  <span class="parameters">( , )</span>
+                  <em>
+(Verify invalid logins trigger error messages)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="addRoleWithSpecialChars">
-                  </a> <!-- addRoleWithSpecialChars -->
-                  <span class="method-name">addRoleWithSpecialChars</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50632}, goog:processID: 15820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50632/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e31864af9d3bf603b828446050da93ee
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at com.DoneProject.helpers.ActionBot.jsClick(ActionBot.java:60)
-	at com.DoneProject.Pages.BasePage.jsClick(BasePage.java:40)
-	at com.DoneProject.Pages.NavBarPage.clickDropdownItem(NavBarPage.java:30)
-	at com.DoneProject.Pages.NavBarPage.goToRoles(NavBarPage.java:51)
-	at tests.DoneProject.roles.AddRoleTest.addRoleWithSpecialChars(AddRoleTest.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
+                  <a name="testInvalidLogin(invalidUser@example.com, wrongPass!)">
+                  </a> <!-- testInvalidLogin(invalidUser@example.com, wrongPass!) -->
+                  <span class="method-name">testInvalidLogin</span>
+                  <span class="parameters">(invalidUser@example.com,wrongPass!)</span>
+                  <em>
+(Verify invalid logins trigger error messages)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testAddRoleSuccessfully">
-                  </a> <!-- testAddRoleSuccessfully -->
-                  <span class="method-name">testAddRoleSuccessfully</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52211}, goog:processID: 11036, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52211/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90aa6e083cb33ed43dd926f49e25dbde
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at com.DoneProject.helpers.ActionBot.jsClick(ActionBot.java:60)
-	at com.DoneProject.Pages.BasePage.jsClick(BasePage.java:40)
-	at com.DoneProject.Pages.NavBarPage.clickDropdownItem(NavBarPage.java:30)
-	at com.DoneProject.Pages.NavBarPage.goToRoles(NavBarPage.java:51)
-	at tests.DoneProject.roles.AddRoleTest.testAddRoleSuccessfully(AddRoleTest.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
+                  <a name="testSuccessfulLogin(ismealadmin, 123456)">
+                  </a> <!-- testSuccessfulLogin(ismealadmin, 123456) -->
+                  <span class="method-name">testSuccessfulLogin</span>
+                  <span class="parameters">(ismealadmin,123456)</span>
+                  <em>
+(Verify successful login changes the URL)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-failed -->
-          <div class="suite-Surefire_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.DoneProject.users.AddUserTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addAndDeleteUserLifecycle">
-                  </a> <!-- addAndDeleteUserLifecycle -->
-                  <span class="method-name">addAndDeleteUserLifecycle</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51867}, goog:processID: 2664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51867/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3ee4eb3fa926aaedb8087c79c512b6e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at com.DoneProject.helpers.ActionBot.jsClick(ActionBot.java:60)
-	at com.DoneProject.Pages.BasePage.jsClick(BasePage.java:40)
-	at com.DoneProject.Pages.NavBarPage.clickDropdownItem(NavBarPage.java:30)
-	at com.DoneProject.Pages.NavBarPage.goToUsers(NavBarPage.java:67)
-	at tests.DoneProject.users.AddUserTest.addAndDeleteUserLifecycle(AddUserTest.java:73)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addUserWithExistingEmail">
-                  </a> <!-- addUserWithExistingEmail -->
-                  <span class="method-name">addUserWithExistingEmail</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64152}, goog:processID: 22596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64152/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 468a2f124e13c52422eb2c6ab73e61f3
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at com.DoneProject.helpers.ActionBot.jsClick(ActionBot.java:60)
-	at com.DoneProject.Pages.BasePage.jsClick(BasePage.java:40)
-	at com.DoneProject.Pages.NavBarPage.clickDropdownItem(NavBarPage.java:30)
-	at com.DoneProject.Pages.NavBarPage.goToUsers(NavBarPage.java:67)
-	at tests.DoneProject.users.AddUserTest.addUserWithExistingEmail(AddUserTest.java:45)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAddUserSuccessfully">
-                  </a> <!-- testAddUserSuccessfully -->
-                  <span class="method-name">testAddUserSuccessfully</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.41.0&apos;, revision: &apos;9fc754f&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64411}, goog:processID: 22888, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64411/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d6cd916efbb047aa4bafe7aca240471
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
-	at com.DoneProject.helpers.ActionBot.jsClick(ActionBot.java:60)
-	at com.DoneProject.Pages.BasePage.jsClick(BasePage.java:40)
-	at com.DoneProject.Pages.NavBarPage.clickDropdownItem(NavBarPage.java:30)
-	at com.DoneProject.Pages.NavBarPage.goToUsers(NavBarPage.java:67)
-	at tests.DoneProject.users.AddUserTest.testAddUserSuccessfully(AddUserTest.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-failed -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -380,9 +228,7 @@ Session ID: 3d6cd916efbb047aa4bafe7aca240471
 &lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.DoneProject.projects.AddProjectTest&quot;/&gt;
-      &lt;class name=&quot;tests.DoneProject.roles.AddRoleTest&quot;/&gt;
-      &lt;class name=&quot;tests.DoneProject.users.AddUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.DoneProject.login.LoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -396,7 +242,7 @@ Session ID: 3d6cd916efbb047aa4bafe7aca240471
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (3 classes)</span>
+                <span class="test-name">Surefire test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -422,44 +268,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addRoleWithSpecialChars')
-data.setCell(0, 2, 'tests.DoneProject.roles.AddRoleTest')
-data.setCell(0, 3, 21161);
+data.setCell(0, 1, 'testSuccessfulLogin')
+data.setCell(0, 2, 'tests.DoneProject.login.LoginTest')
+data.setCell(0, 3, 3992);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addProjectSuccessfully')
-data.setCell(1, 2, 'tests.DoneProject.projects.AddProjectTest')
-data.setCell(1, 3, 20868);
+data.setCell(1, 1, 'testEmptyFieldsValidation')
+data.setCell(1, 2, 'tests.DoneProject.login.LoginTest')
+data.setCell(1, 3, 3280);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testAddUserSuccessfully')
-data.setCell(2, 2, 'tests.DoneProject.users.AddUserTest')
-data.setCell(2, 3, 20867);
+data.setCell(2, 1, 'testInvalidLogin')
+data.setCell(2, 2, 'tests.DoneProject.login.LoginTest')
+data.setCell(2, 3, 1902);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'addRoleAndEditPermissions')
-data.setCell(3, 2, 'tests.DoneProject.roles.AddRoleTest')
-data.setCell(3, 3, 20694);
+data.setCell(3, 1, 'testInvalidLogin')
+data.setCell(3, 2, 'tests.DoneProject.login.LoginTest')
+data.setCell(3, 3, 1886);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'addAndDeleteRoleLifecycle')
-data.setCell(4, 2, 'tests.DoneProject.roles.AddRoleTest')
-data.setCell(4, 3, 20634);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'addAndDeleteUserLifecycle')
-data.setCell(5, 2, 'tests.DoneProject.users.AddUserTest')
-data.setCell(5, 3, 20614);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'addUserWithExistingEmail')
-data.setCell(6, 2, 'tests.DoneProject.users.AddUserTest')
-data.setCell(6, 3, 20601);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testAddRoleSuccessfully')
-data.setCell(7, 2, 'tests.DoneProject.roles.AddRoleTest')
-data.setCell(7, 3, 20439);
+data.setCell(4, 1, 'testInvalidLogin')
+data.setCell(4, 2, 'tests.DoneProject.login.LoginTest')
+data.setCell(4, 3, 331);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -485,124 +319,88 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.DoneProject.projects.AddProjectTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.DoneProject.login.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addProjectSuccessfully</span>
-                <span class="method-start">4585 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=addProjectSuccessfully status=FAILURE method=AddProjectTest.addProjectSuccessfully(...)</span>
-                <span class="method-start">25475 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">tests.DoneProject.roles.AddRoleTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">25888 ms</span>
+                <span class="method-name">setupTest</span>
+                <span class="method-start">8459 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testAddRoleSuccessfully</span>
-                <span class="method-start">34528 ms</span>
+                <span class="method-name">testEmptyFieldsValidation</span>
+                <span class="method-start">8468 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=testAddRoleSuccessfully status=FAILURE method=AddRoleTest.testAddRoleSuccessfully()...)</span>
-                <span class="method-start">54969 ms</span>
+                <span class="method-name">tearDown([TestResult name=testEmptyFieldsValidation status=FAILURE method=LoginTest.testEmptyFieldsValidation...)</span>
+                <span class="method-start">11755 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">55905 ms</span>
+                <span class="method-start">12097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">19772 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addRoleWithSpecialChars</span>
-                <span class="method-start">72528 ms</span>
+                <span class="method-name">testInvalidLogin(invalidUser@example.com, wrongPass!)</span>
+                <span class="method-start">19773 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=addRoleWithSpecialChars status=FAILURE method=AddRoleTest.addRoleWithSpecialChars()...)</span>
-                <span class="method-start">93689 ms</span>
+                <span class="method-name">tearDown([TestResult name=testInvalidLogin status=SUCCESS method=LoginTest.testInvalidLogin(java.lang.String,...)</span>
+                <span class="method-start">21675 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">93999 ms</span>
+                <span class="method-start">21850 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">28363 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addAndDeleteRoleLifecycle</span>
-                <span class="method-start">98156 ms</span>
+                <span class="method-name">testInvalidLogin(ismealadmin, wrongPass!)</span>
+                <span class="method-start">28365 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=addAndDeleteRoleLifecycle status=FAILURE method=AddRoleTest.addAndDeleteRoleLifecyc...)</span>
-                <span class="method-start">118791 ms</span>
+                <span class="method-name">tearDown([TestResult name=testInvalidLogin status=SUCCESS method=LoginTest.testInvalidLogin(java.lang.String,...)</span>
+                <span class="method-start">30254 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">119172 ms</span>
+                <span class="method-start">30426 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addRoleAndEditPermissions</span>
-                <span class="method-start">129101 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=addRoleAndEditPermissions status=FAILURE method=AddRoleTest.addRoleAndEditPermissio...)</span>
-                <span class="method-start">149798 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">tests.DoneProject.users.AddUserTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">150176 ms</span>
+                <span class="method-name">setupTest</span>
+                <span class="method-start">37299 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testAddUserSuccessfully</span>
-                <span class="method-start">164133 ms</span>
+                <span class="method-name">testInvalidLogin( ,  )</span>
+                <span class="method-start">37304 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=testAddUserSuccessfully status=FAILURE method=AddUserTest.testAddUserSuccessfully()...)</span>
-                <span class="method-start">185001 ms</span>
+                <span class="method-name">tearDown([TestResult name=testInvalidLogin status=SUCCESS method=LoginTest.testInvalidLogin(java.lang.String,...)</span>
+                <span class="method-start">37636 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">185552 ms</span>
+                <span class="method-start">37840 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addUserWithExistingEmail</span>
-                <span class="method-start">198311 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=addUserWithExistingEmail status=FAILURE method=AddUserTest.addUserWithExistingEmail...)</span>
-                <span class="method-start">218913 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">219203 ms</span>
+                <span class="method-name">setupTest</span>
+                <span class="method-start">44926 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">addAndDeleteUserLifecycle</span>
-                <span class="method-start">224450 ms</span>
+                <span class="method-name">testSuccessfulLogin(ismealadmin, 123456)</span>
+                <span class="method-start">44929 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=addAndDeleteUserLifecycle status=FAILURE method=AddUserTest.addAndDeleteUserLifecyc...)</span>
-                <span class="method-start">245065 ms</span>
+                <span class="method-name">tearDown([TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTest.testSuccessfulLogin(java.lang.S...)</span>
+                <span class="method-start">48921 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

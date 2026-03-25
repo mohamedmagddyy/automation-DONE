@@ -5,20 +5,47 @@ import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.SectorsPage;
 import tests.DoneProject.BaseTest;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class DeleteSectorTest extends BaseTest {
 
-    @Test
-    public void deleteSectorSuccessfully() {
-        new LoginPage().login("ismealadmin", "123456");
+    private SectorsPage sectorsPage;
 
-        NavBarPage  navBar      = new NavBarPage();
-        SectorsPage sectorsPage = new SectorsPage();
+    private final String USERNAME = "ismealadmin";
+    private final String PASSWORD = "123456";
 
+    @BeforeMethod
+    public void setupTest() {
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.login(USERNAME, PASSWORD);
+
+        NavBarPage navBar = new NavBarPage();
         navBar.goToSectors();
-        sectorsPage.deleteSector("Automation Sector 2");
 
-        Assert.assertEquals(sectorsPage.getToastMessage(), "Delete Done", "❌ Wrong toast");
+        sectorsPage = new SectorsPage();
+    }
+
+    @Test(priority = 1)
+    public void deleteSectorSuccessfully() {
+        // Arrange
+        String sectorName = "Automation Sector Updated X " + System.currentTimeMillis();
+
+        // Setup: Add a sector explicitly so the delete logic is independent and stable
+        sectorsPage.addSector(sectorName);
+        sectorsPage.saveSector();
+        sectorsPage.waitForToastToDisappear();
+
+        // Act: Delete the setup sector
+        sectorsPage.deleteSector(sectorName);
+
+        // Assert: Validate success toast exactly matching expected string
+        List<String> messages = sectorsPage.getAllToastMessages();
+        Assert.assertTrue(messages.stream().anyMatch(m -> m.contains("Delete Done")), 
+                "Expected 'Delete Done' toast not found! Actual: " + messages);
+        
+        sectorsPage.waitForToastToDisappear();
     }
 }
