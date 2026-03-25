@@ -920,3 +920,343 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51867}, goog:processID: 2664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51867/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: e3ee4eb3fa926aaedb8087c79c512b6e
 [2026-03-17 22:35:21] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addAndDeleteUserLifecycle_2026-03-17_22-35-21.png
+[2026-03-18 12:48:34] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: Surefire test
+[2026-03-18 12:48:46] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-18 12:48:46] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-18 12:48:46] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testAddRecurringTask
+[2026-03-18 12:48:46] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.Pages.LoginPage - 🔑 Attempting Login for User: ismealadmin
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ Typed: [ismealadmin] in By.id: validationServer01
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ Typed: [123456] in By.id: validationServer02
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ Clicked: By.cssSelector: button.btn-login
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.Pages.LoginPage - ✅ Login successful
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
+[2026-03-18 12:48:46] [INFO ] com.DoneProject.Pages.NavBarPage - 🧭 Navigating to: Recurring Tasks
+[2026-03-18 12:49:07] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56334}, goog:processID: 21460, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56334/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cbb37b06a2f3e7dc20d9551049b330c
+[2026-03-18 12:49:07] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-18 12:49:07] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testAddRecurringTask
+[2026-03-18 12:49:07] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected condition failed: waiting for presence of element found by By.id: notifictions
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56334}, goog:processID: 21460, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56334/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cbb37b06a2f3e7dc20d9551049b330c
+[2026-03-18 12:49:07] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-18 12:49:07] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-18 12:49:07] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddRecurringTaskTest/testAddRecurringTask_2026-03-18_12-49-07.png
+[2026-03-18 12:49:07] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: Surefire test
+[2026-03-18 12:49:07] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=0, Failed=1, Skipped=0
+[2026-03-25 02:28:49] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: Surefire test
+[2026-03-25 02:29:11] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:29:11] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:29:11] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:29:11] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:29:11] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:29:11] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testEmptyFieldsValidation
+[2026-03-25 02:29:11] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:29:11] [INFO ] tests.DoneProject.login.LoginTest - Executing testEmptyFieldsValidation
+[2026-03-25 02:29:21] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 02:29:21] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testEmptyFieldsValidation
+[2026-03-25 02:29:21] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 02:29:21] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:29:29] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:29:29] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:29:29] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:29:29] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:29:29] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:29:29] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 02:29:29] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:29:29] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: invalidUser@example.com
+[2026-03-25 02:29:40] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:29:40] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testInvalidLogin
+[2026-03-25 02:29:40] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected condition failed: waiting for visibility of element found by By.cssSelector: input[placeholder='User name'], input[name='username'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[placeholder='User name'], input[name='username']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49681}, goog:processID: 456, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49681/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3658748582de4797bdd158c0bc0d15c8
+[2026-03-25 02:29:40] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:29:40] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:29:40] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testInvalidLogin_2026-03-25_02-29-40.png
+[2026-03-25 02:29:48] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:29:48] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:29:48] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:29:48] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:29:48] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:29:48] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 02:29:48] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:29:48] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: ismealadmin
+[2026-03-25 02:29:58] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:29:58] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testInvalidLogin
+[2026-03-25 02:29:58] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected condition failed: waiting for visibility of element found by By.cssSelector: input[placeholder='User name'], input[name='username'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[placeholder='User name'], input[name='username']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55306}, goog:processID: 25328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55306/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 616d98692fe3e8f2529b470fc1e5e1f2
+[2026-03-25 02:29:58] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:29:58] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:29:58] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testInvalidLogin_2026-03-25_02-29-58.png
+[2026-03-25 02:30:06] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:30:06] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:30:06] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:30:06] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:30:06] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:30:06] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 02:30:06] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:30:06] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user:  
+[2026-03-25 02:30:16] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:30:16] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testInvalidLogin
+[2026-03-25 02:30:16] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected condition failed: waiting for visibility of element found by By.cssSelector: input[placeholder='User name'], input[name='username'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[placeholder='User name'], input[name='username']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64890}, goog:processID: 11820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64890/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5dbffaf36f220dfdb836e29f6171833d
+[2026-03-25 02:30:16] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:30:16] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:30:16] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testInvalidLogin_2026-03-25_02-30-16.png
+[2026-03-25 02:30:23] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:30:23] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:30:23] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:30:23] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:30:23] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:30:23] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testSuccessfulLogin
+[2026-03-25 02:30:23] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:30:23] [INFO ] tests.DoneProject.login.LoginTest - Executing testSuccessfulLogin for user: ismealadmin
+[2026-03-25 02:30:34] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:30:34] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testSuccessfulLogin
+[2026-03-25 02:30:34] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected condition failed: waiting for visibility of element found by By.cssSelector: input[placeholder='User name'], input[name='username'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[placeholder='User name'], input[name='username']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.154, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60736}, goog:processID: 7980, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60736/devtoo..., se:cdpVersion: 146.0.7680.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 94ed158d7d7b965d6eecee2d95db00dd
+[2026-03-25 02:30:34] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:30:34] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:30:34] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testSuccessfulLogin_2026-03-25_02-30-34.png
+[2026-03-25 02:30:34] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: Surefire test
+[2026-03-25 02:30:34] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=1, Failed=4, Skipped=0
+[2026-03-25 02:37:53] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: Surefire test
+[2026-03-25 02:38:01] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:38:01] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:38:01] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:38:01] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:38:01] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:38:01] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testEmptyFieldsValidation
+[2026-03-25 02:38:01] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:38:01] [INFO ] tests.DoneProject.login.LoginTest - Executing testEmptyFieldsValidation
+[2026-03-25 02:38:12] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 02:38:12] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testEmptyFieldsValidation
+[2026-03-25 02:38:12] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 02:38:12] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:38:19] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:38:19] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:38:19] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:38:19] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:38:19] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:38:19] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 02:38:19] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:38:19] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: invalidUser@example.com
+[2026-03-25 02:38:30] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:38:30] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testInvalidLogin
+[2026-03-25 02:38:30] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: An error toast should be visible for invalid credentials! expected [false] but found [true]
+[2026-03-25 02:38:30] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:38:30] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:38:30] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testInvalidLogin_2026-03-25_02-38-30.png
+[2026-03-25 02:38:38] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:38:38] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:38:38] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:38:38] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:38:38] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:38:38] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 02:38:38] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:38:38] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: ismealadmin
+[2026-03-25 02:38:49] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:38:49] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testInvalidLogin
+[2026-03-25 02:38:49] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: An error toast should be visible for invalid credentials! expected [false] but found [true]
+[2026-03-25 02:38:49] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:38:49] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:38:49] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testInvalidLogin_2026-03-25_02-38-49.png
+[2026-03-25 02:38:57] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:38:57] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:38:57] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:38:57] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:38:57] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:38:57] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 02:38:57] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:38:57] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user:  
+[2026-03-25 02:39:08] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:39:08] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testInvalidLogin
+[2026-03-25 02:39:08] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: An error toast should be visible for invalid credentials! expected [false] but found [true]
+[2026-03-25 02:39:08] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:39:08] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:39:08] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testInvalidLogin_2026-03-25_02-39-08.png
+[2026-03-25 02:39:17] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:39:17] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:39:17] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:39:17] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:39:17] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:39:17] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testSuccessfulLogin
+[2026-03-25 02:39:17] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:39:17] [INFO ] tests.DoneProject.login.LoginTest - Executing testSuccessfulLogin for user: ismealadmin
+[2026-03-25 02:39:17] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:39:17] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testSuccessfulLogin
+[2026-03-25 02:39:17] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected URL to transition away from /login upon successful entry. Current URL: https://donefronttesting1.keyframe-eg.org/login expected [false] but found [true]
+[2026-03-25 02:39:17] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:39:17] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:39:18] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testSuccessfulLogin_2026-03-25_02-39-17.png
+[2026-03-25 02:39:18] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: Surefire test
+[2026-03-25 02:39:18] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=1, Failed=4, Skipped=0
+[2026-03-25 02:49:11] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: Surefire test
+[2026-03-25 02:49:20] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:49:20] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:49:20] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:49:20] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:49:20] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:49:20] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testEmptyFieldsValidation
+[2026-03-25 02:49:20] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:49:20] [INFO ] tests.DoneProject.login.LoginTest - Executing testEmptyFieldsValidation
+[2026-03-25 02:49:30] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 02:49:30] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testEmptyFieldsValidation
+[2026-03-25 02:49:30] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 02:49:30] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:49:38] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:49:38] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:49:38] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:49:38] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:49:38] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:49:38] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 02:49:38] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:49:38] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: invalidUser@example.com
+[2026-03-25 02:49:49] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:49:49] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testInvalidLogin
+[2026-03-25 02:49:49] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: An error toast should be visible for invalid credentials! expected [false] but found [true]
+[2026-03-25 02:49:49] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:49:49] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:49:49] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testInvalidLogin_2026-03-25_02-49-49.png
+[2026-03-25 02:49:56] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:49:56] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:49:56] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:49:56] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:49:56] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:49:56] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 02:49:56] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:49:56] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: ismealadmin
+[2026-03-25 02:50:07] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:50:07] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testInvalidLogin
+[2026-03-25 02:50:07] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: An error toast should be visible for invalid credentials! expected [false] but found [true]
+[2026-03-25 02:50:07] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:50:07] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:50:07] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testInvalidLogin_2026-03-25_02-50-07.png
+[2026-03-25 02:50:14] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:50:14] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:50:14] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:50:14] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:50:14] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:50:14] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 02:50:14] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:50:14] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user:  
+[2026-03-25 02:50:25] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:50:25] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testInvalidLogin
+[2026-03-25 02:50:25] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: An error toast should be visible for invalid credentials! expected [false] but found [true]
+[2026-03-25 02:50:25] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:50:25] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:50:25] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testInvalidLogin_2026-03-25_02-50-25.png
+[2026-03-25 02:50:32] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 02:50:32] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 02:50:32] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 02:50:32] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:50:32] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 02:50:32] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testSuccessfulLogin
+[2026-03-25 02:50:32] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 02:50:32] [INFO ] tests.DoneProject.login.LoginTest - Executing testSuccessfulLogin for user: ismealadmin
+[2026-03-25 02:50:32] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:50:32] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testSuccessfulLogin
+[2026-03-25 02:50:32] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected URL to transition away from /login upon successful entry. Current URL: https://donefronttesting1.keyframe-eg.org/login expected [false] but found [true]
+[2026-03-25 02:50:32] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 02:50:32] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 02:50:33] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testSuccessfulLogin_2026-03-25_02-50-32.png
+[2026-03-25 02:50:33] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: Surefire test
+[2026-03-25 02:50:33] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=1, Failed=4, Skipped=0
+[2026-03-25 03:13:39] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: Surefire test
+[2026-03-25 03:13:48] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 03:13:48] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 03:13:48] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 03:13:48] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 03:13:48] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 03:13:48] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testEmptyFieldsValidation
+[2026-03-25 03:13:48] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 03:13:48] [INFO ] tests.DoneProject.login.LoginTest - Executing testEmptyFieldsValidation
+[2026-03-25 03:13:51] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 03:13:51] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testEmptyFieldsValidation
+[2026-03-25 03:13:51] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected validation messages for empty fields not found! Actual: [] expected [true] but found [false]
+[2026-03-25 03:13:51] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-25 03:13:51] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 03:13:51] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/LoginTest/testEmptyFieldsValidation_2026-03-25_03-13-51.png
+[2026-03-25 03:13:59] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 03:13:59] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 03:13:59] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 03:13:59] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 03:13:59] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 03:13:59] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 03:13:59] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 03:13:59] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: invalidUser@example.com
+[2026-03-25 03:14:01] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 03:14:01] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+[2026-03-25 03:14:01] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 03:14:01] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 03:14:08] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 03:14:08] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 03:14:08] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 03:14:08] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 03:14:08] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 03:14:08] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 03:14:08] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 03:14:08] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: ismealadmin
+[2026-03-25 03:14:10] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 03:14:10] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+[2026-03-25 03:14:10] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 03:14:10] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 03:14:17] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 03:14:17] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 03:14:17] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 03:14:17] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 03:14:17] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 03:14:17] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-25 03:14:17] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 03:14:17] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user:  
+[2026-03-25 03:14:17] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 03:14:17] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+[2026-03-25 03:14:17] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 03:14:17] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 03:14:24] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-25 03:14:24] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-25 03:14:24] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-25 03:14:24] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 03:14:24] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-25 03:14:24] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testSuccessfulLogin
+[2026-03-25 03:14:24] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-25 03:14:24] [INFO ] tests.DoneProject.login.LoginTest - Executing testSuccessfulLogin for user: ismealadmin
+[2026-03-25 03:14:28] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 03:14:28] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testSuccessfulLogin
+[2026-03-25 03:14:28] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-25 03:14:28] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-25 03:14:28] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: Surefire test
+[2026-03-25 03:14:28] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=4, Failed=1, Skipped=0

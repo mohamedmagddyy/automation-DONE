@@ -11,9 +11,9 @@ import java.time.Duration;
 
 public class ProjectsPage extends BasePage {
 
-    private static final Logger logger = LoggerFactory.getLogger(ProjectsPage.class);
+    private static final Logger logger        = LoggerFactory.getLogger(ProjectsPage.class);
+    private static final int    WAIT_TIMEOUT  = 10;
 
-    // ===== Static Locators =====
     private final By addButton          = By.id("dropdownMenuButton1");
     private final By newProjectOption   = By.xpath("//a[normalize-space()='New project']");
     private final By projectNameInput   = By.id("projectName");
@@ -23,34 +23,40 @@ public class ProjectsPage extends BasePage {
         super();
     }
 
-    // ===== Dynamic Locators =====
     private By projectCardByName(String projectName) {
-        return By.xpath("//div[contains(@class,'projectCard')][.//text()[normalize-space()='"
-                + projectName + "']]");
+        return By.xpath(
+                "//div[contains(@class,'projectCard')][.//text()[normalize-space()='" + projectName + "']]"
+        );
     }
 
-    private By actionButton(String projectName) {
-        return By.xpath("//div[contains(@class,'projectCard')][.//text()[normalize-space()='"
-                + projectName + "']]//button[contains(@class,'dropdown-toggle')]");
+    private By actionButtonByName(String projectName) {
+        return By.xpath(
+                "//div[contains(@class,'projectCard')][.//text()[normalize-space()='" + projectName + "']]"
+                + "//button[contains(@class,'dropdown-toggle')]"
+        );
     }
 
-    private By actionOption(String projectName, String action) {
-        return By.xpath("//div[contains(@class,'projectCard')][.//text()[normalize-space()='"
-                + projectName + "']]//span[normalize-space()='" + action + "']");
+    private By actionOptionByName(String projectName, String action) {
+        return By.xpath(
+                "//div[contains(@class,'projectCard')][.//text()[normalize-space()='" + projectName + "']]"
+                + "//span[normalize-space()='" + action + "']"
+        );
     }
 
-    // ===== Business Actions (Fluent) =====
+    private By sectorLinkByName(String sectorName) {
+        return By.xpath("//a[.//h4[normalize-space()='" + sectorName + "']]");
+    }
+
     public ProjectsPage openSectorByName(String sectorName) {
-        By sectorLink = By.xpath("//a[.//h4[normalize-space()='" + sectorName + "']]");
-        logger.info("📂 Sector: {}", sectorName);
+        logger.info("Opening sector: {}", sectorName);
         waitForPageToBeReady();
-        click(sectorLink);
+        click(sectorLinkByName(sectorName));
         waitForPageToBeReady();
         return this;
     }
 
     public ProjectsPage addProject(String projectName) {
-        logger.info("➕ Adding Project: {}", projectName);
+        logger.info("Adding project: {}", projectName);
         waitForPageToBeReady();
         click(addButton);
         click(newProjectOption);
@@ -59,42 +65,37 @@ public class ProjectsPage extends BasePage {
     }
 
     public ProjectsPage editProject(String oldName, String newName) {
-        logger.info("✏️ Editing Project: {} -> {}", oldName, newName);
+        logger.info("Editing project: {} -> {}", oldName, newName);
         waitForPageToBeReady();
-        click(actionButton(oldName));
-
-        By editOption = actionOption(oldName, "Edit");
-        new WebDriverWait(driver, Duration.ofSeconds(10))
+        click(actionButtonByName(oldName));
+        By editOption = actionOptionByName(oldName, "Edit");
+        new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT))
                 .until(ExpectedConditions.visibilityOfElementLocated(editOption));
         click(editOption);
-
         typeAndAutoSave(newName);
         return this;
     }
 
     public ProjectsPage deleteProject(String projectName) {
-        logger.info("🗑️ Deleting Project: {}", projectName);
+        logger.info("Deleting project: {}", projectName);
         waitForPageToBeReady();
-        click(actionButton(projectName));
-        click(actionOption(projectName, "Delete"));
+        click(actionButtonByName(projectName));
+        click(actionOptionByName(projectName, "Delete"));
         click(confirmDeleteButton);
         waitForToastToDisappear();
         return this;
     }
 
-    // ===== Auto-Save Helper =====
     private void typeAndAutoSave(String projectName) {
-        new WebDriverWait(driver, Duration.ofSeconds(10))
+        new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT))
                 .until(ExpectedConditions.visibilityOfElementLocated(projectNameInput));
-
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].value='';", driver.findElement(projectNameInput));
         js.executeScript("arguments[0].value=arguments[1];", driver.findElement(projectNameInput), projectName);
         js.executeScript("arguments[0].dispatchEvent(new Event('input', { bubbles: true }));",
                 driver.findElement(projectNameInput));
         js.executeScript("arguments[0].blur();", driver.findElement(projectNameInput));
-
-        new WebDriverWait(driver, Duration.ofSeconds(10))
+        new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT))
                 .until(ExpectedConditions.visibilityOfElementLocated(projectCardByName(projectName)));
     }
 }

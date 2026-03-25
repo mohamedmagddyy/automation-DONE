@@ -5,47 +5,76 @@ import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.SectorsPage;
 import tests.DoneProject.BaseTest;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class AddEditDeleteSectorTest extends BaseTest {
 
+    private SectorsPage sectorsPage;
+
+    private final String USERNAME = "ismealadmin";
+    private final String PASSWORD = "123456";
+
+    @BeforeMethod
+    public void setupTest() {
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.login(USERNAME, PASSWORD);
+
+        NavBarPage navBar = new NavBarPage();
+        navBar.goToSectors();
+
+        sectorsPage = new SectorsPage();
+    }
+
     @Test(priority = 1)
     public void addSectorSuccessfully() {
-        new LoginPage().login("ismealadmin", "123456");
+        String sectorName = "AutoSector_" + System.currentTimeMillis();
+        sectorsPage.addSector(sectorName);
+        sectorsPage.saveSector();
 
-        NavBarPage  navBar      = new NavBarPage();
-        SectorsPage sectorsPage = new SectorsPage();
-
-        navBar.goToSectors();
-        sectorsPage.addSector("Automation Sector 3");
-        sectorsPage.selectManagerByName("اسماعيل");
-
-        Assert.assertEquals(sectorsPage.getToastMessage(), "Add Done", "❌ Add toast خاطئ");
+        List<String> messages = sectorsPage.getAllToastMessages();
+        Assert.assertTrue(messages.stream().anyMatch(m -> m.contains("Add Done")), "Expected 'Add Done' toast not found! Actual: " + messages);
+        sectorsPage.waitForToastToDisappear();
     }
 
     @Test(priority = 2)
     public void editSectorSuccessfully() {
-        new LoginPage().login("ismealadmin", "123456");
+        long timestamp = System.currentTimeMillis();
+        String oldName = "BaseSector_" + timestamp;
+        
+        // Setup: Add a sector to edit
+        sectorsPage.addSector(oldName);
+        sectorsPage.saveSector();
+        sectorsPage.waitForToastToDisappear();
 
-        NavBarPage  navBar      = new NavBarPage();
-        SectorsPage sectorsPage = new SectorsPage();
+        // Act: Edit the newly added sector
+        String newName = "UpdatedSector_" + timestamp;
+        sectorsPage.editSector(oldName, newName);
 
-        navBar.goToSectors();
-        sectorsPage.editSector("Automation Sector 3", "Automation Sector Updated 3");
-
-        Assert.assertEquals(sectorsPage.getToastMessage(), "EditDone", "❌ Edit toast خاطئ");
+        // Assert
+        List<String> messages = sectorsPage.getAllToastMessages();
+        Assert.assertTrue(messages.stream().anyMatch(m -> m.contains("EditDone")), "Expected 'EditDone' toast not found! Actual: " + messages);
+        sectorsPage.waitForToastToDisappear();
     }
 
     @Test(priority = 3)
     public void deleteSectorSuccessfully() {
-        new LoginPage().login("ismealadmin", "123456");
+        long timestamp = System.currentTimeMillis();
+        String sectorName = "DeleteSector_" + timestamp;
 
-        NavBarPage  navBar      = new NavBarPage();
-        SectorsPage sectorsPage = new SectorsPage();
+        // Setup: Add a sector to delete
+        sectorsPage.addSector(sectorName);
+        sectorsPage.saveSector();
+        sectorsPage.waitForToastToDisappear();
 
-        navBar.goToSectors();
-        sectorsPage.deleteSector("Automation Sector Updated 3");
+        // Act: Delete the sector
+        sectorsPage.deleteSector(sectorName);
 
-        Assert.assertEquals(sectorsPage.getToastMessage(), "Delete Done", "❌ Delete toast خاطئ");
+        // Assert
+        List<String> messages = sectorsPage.getAllToastMessages();
+        Assert.assertTrue(messages.stream().anyMatch(m -> m.contains("Delete Done")), "Expected 'Delete Done' toast not found! Actual: " + messages);
+        sectorsPage.waitForToastToDisappear();
     }
 }
