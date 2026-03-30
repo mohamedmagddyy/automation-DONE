@@ -1,0 +1,622 @@
+[2026-03-30 17:10:24] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Roles Management
+[2026-03-30 17:10:44] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/rolls']
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:45] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:10:45] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:10:45] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testAddRoleSuccessfully
+[2026-03-30 17:10:45] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.Pages.RolesPage - Adding role: AutoRole_1774883445294
+[2026-03-30 17:10:46] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.cssSelector: .btn-add - element click intercepted: Element <button _ngcontent-dex-c43="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasposition" aria-controls="offcanvasposition" class="btn-add">...</button> is not clickable at point (1812, 92). Other element would receive the click: <h4 _ngcontent-dex-c43="" class="d-inline-block projectstitlereport">...</h4>
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fea610b9895cd2eee1e2f15a107dc16, clickElement {id=f.1A303C474056E53A344C541E32CCF2AA.d.5C07E717DFD188B245133BE1A48D0CAA.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65139}, goog:processID: 6948, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65139/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9fea610b9895cd2eee1e2f15a107dc16)] -> css selector: .btn-add]
+Session ID: 9fea610b9895cd2eee1e2f15a107dc16
+[2026-03-30 17:10:46] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:10:46] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testAddRoleSuccessfully
+[2026-03-30 17:10:46] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: element click intercepted: Element <button _ngcontent-dex-c43="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasposition" aria-controls="offcanvasposition" class="btn-add">...</button> is not clickable at point (1812, 92). Other element would receive the click: <h4 _ngcontent-dex-c43="" class="d-inline-block projectstitlereport">...</h4>
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fea610b9895cd2eee1e2f15a107dc16, clickElement {id=f.1A303C474056E53A344C541E32CCF2AA.d.5C07E717DFD188B245133BE1A48D0CAA.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65139}, goog:processID: 6948, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65139/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9fea610b9895cd2eee1e2f15a107dc16)] -> css selector: .btn-add]
+Session ID: 9fea610b9895cd2eee1e2f15a107dc16
+[2026-03-30 17:10:46] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:10:46] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:10:46] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddRoleTest/testAddRoleSuccessfully_2026-03-30_17-10-46.png
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Roles Management
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/rolls']
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:55] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:10:55] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:10:55] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addRoleWithSpecialChars
+[2026-03-30 17:10:55] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.Pages.RolesPage - Adding role: Role!@#$%^1774883455840
+[2026-03-30 17:10:56] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.cssSelector: .btn-add - element click intercepted: Element <button _ngcontent-fio-c43="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasposition" aria-controls="offcanvasposition" class="btn-add">...</button> is not clickable at point (1812, 92). Other element would receive the click: <h4 _ngcontent-fio-c43="" class="d-inline-block projectstitlereport">...</h4>
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c19d4dbf15d65e227f13942a2130aec4, clickElement {id=f.D4B844271A8DDFA3C81AF2C0D6CA9EB8.d.61A99DDE3D07A5C1DA84CF9252DA9A9D.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60779}, goog:processID: 6940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60779/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c19d4dbf15d65e227f13942a2130aec4)] -> css selector: .btn-add]
+Session ID: c19d4dbf15d65e227f13942a2130aec4
+[2026-03-30 17:10:56] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:10:56] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: addRoleWithSpecialChars
+[2026-03-30 17:10:56] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: element click intercepted: Element <button _ngcontent-fio-c43="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasposition" aria-controls="offcanvasposition" class="btn-add">...</button> is not clickable at point (1812, 92). Other element would receive the click: <h4 _ngcontent-fio-c43="" class="d-inline-block projectstitlereport">...</h4>
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c19d4dbf15d65e227f13942a2130aec4, clickElement {id=f.D4B844271A8DDFA3C81AF2C0D6CA9EB8.d.61A99DDE3D07A5C1DA84CF9252DA9A9D.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60779}, goog:processID: 6940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60779/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c19d4dbf15d65e227f13942a2130aec4)] -> css selector: .btn-add]
+Session ID: c19d4dbf15d65e227f13942a2130aec4
+[2026-03-30 17:10:56] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:10:56] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:10:57] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddRoleTest/addRoleWithSpecialChars_2026-03-30_17-10-56.png
+[2026-03-30 17:11:02] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:02] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:02] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Roles Management
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/rolls']
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:06] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:11:06] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:11:06] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addAndDeleteRoleLifecycle
+[2026-03-30 17:11:06] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.Pages.RolesPage - Adding role: DeleteMe_1774883466523
+[2026-03-30 17:11:07] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.cssSelector: .btn-add - unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0e7be11c7319539c4143501c33e9bc2, clickElement {id=f.1A0E57A560B24225C96964B167186C51.d.8BC37274EAA6E17B08C1C159A2793AEB.e.90}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56175}, goog:processID: 24016, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56175/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a0e7be11c7319539c4143501c33e9bc2)] -> css selector: .btn-add]
+Session ID: a0e7be11c7319539c4143501c33e9bc2
+[2026-03-30 17:11:07] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:11:07] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: addAndDeleteRoleLifecycle
+[2026-03-30 17:11:07] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0e7be11c7319539c4143501c33e9bc2, clickElement {id=f.1A0E57A560B24225C96964B167186C51.d.8BC37274EAA6E17B08C1C159A2793AEB.e.90}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56175}, goog:processID: 24016, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56175/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a0e7be11c7319539c4143501c33e9bc2)] -> css selector: .btn-add]
+Session ID: a0e7be11c7319539c4143501c33e9bc2
+[2026-03-30 17:11:07] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:11:07] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:11:07] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddRoleTest/addAndDeleteRoleLifecycle_2026-03-30_17-11-07.png
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Roles Management
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/rolls']
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:16] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:11:16] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:11:16] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addRoleAndEditPermissions
+[2026-03-30 17:11:16] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.Pages.RolesPage - Adding role: PermRole_1774883476919
+[2026-03-30 17:11:17] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: .btn-add
+[2026-03-30 17:11:18] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [PermRole_1774883476919] into By.id: name
+[2026-03-30 17:11:42] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-30 17:11:47] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:47] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testEmptyFieldsValidation
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.login.LoginTest - Executing testEmptyFieldsValidation
+[2026-03-30 17:11:48] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [] into By.id: validationServer01
+[2026-03-30 17:11:48] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [] into By.id: validationServer02
+[2026-03-30 17:11:48] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:11:48] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:48] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:58] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:11:58] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testEmptyFieldsValidation
+[2026-03-30 17:11:58] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:11:58] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: invalidUser@example.com
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [invalidUser@example.com] into By.id: validationServer01
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [wrongPass!] into By.id: validationServer02
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:14] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:14] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+[2026-03-30 17:12:14] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:14] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: ismealadmin
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [wrongPass!] into By.id: validationServer02
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:30] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:30] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+[2026-03-30 17:12:30] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:30] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user:  
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ ] into By.id: validationServer01
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ ] into By.id: validationServer02
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:47] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:47] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+[2026-03-30 17:12:47] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:47] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testSuccessfulLogin
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.login.LoginTest - Executing testSuccessfulLogin for user: ismealadmin
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testSuccessfulLogin
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: automation DONE
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=5, Failed=0, Skipped=0
+[2026-03-30 17:13:21] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Recurring Tasks
+[2026-03-30 17:13:31] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:13:51] [ERROR] com.DoneProject.helpers.ActionBot - Failed to scroll to element: By.xpath: //a[@routerlink='/recurring-task'] - Expected condition failed: waiting for visibility of element found by By.xpath: //a[@routerlink='/recurring-task'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@routerlink='/recurring-task']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49920}, goog:processID: 28428, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49920/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d1b92ca5865859f1e3e0c1323bbff87
+[2026-03-30 17:13:51] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:13:51] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:13:51] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testAddDailyRecurringTask
+[2026-03-30 17:13:51] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:13:51] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:13:51] [WARN ] tests.DoneProject.listeners.TestListener - ⚠️ TEST SKIPPED: testAddDailyRecurringTask
+[2026-03-30 17:13:51] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:13:51] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:13:55] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:13:55] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:13:55] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testAddWeeklyTaskWithMultipleUsers
+[2026-03-30 17:13:55] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:13:55] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:13:55] [WARN ] tests.DoneProject.listeners.TestListener - ⚠️ TEST SKIPPED: testAddWeeklyTaskWithMultipleUsers
+[2026-03-30 17:13:55] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:13:55] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testAddMonthlyRecurringTask
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:14:01] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:14:01] [WARN ] tests.DoneProject.listeners.TestListener - ⚠️ TEST SKIPPED: testAddMonthlyRecurringTask
+[2026-03-30 17:14:01] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: automation DONE
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=0, Failed=0, Skipped=3
+[2026-03-30 17:14:06] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Recurring Tasks
+[2026-03-30 17:14:14] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:14:42] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:14:50] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:51] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:14:51] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:14:51] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addSectorSuccessfully
+[2026-03-30 17:14:51] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: AutoSector_1774883691165
+[2026-03-30 17:14:52] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.cssSelector: h5.title-list ~ button.btn-primary - unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e261b70968442c30db979e52efa4d258, clickElement {id=f.C62DD40B0EAA787E1E1AF73357AC110D.d.98926C512531E60657B463319A71356C.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50547}, goog:processID: 28816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50547/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e261b70968442c30db979e52efa4d258)] -> css selector: h5.title-list ~ button.btn-primary]
+Session ID: e261b70968442c30db979e52efa4d258
+[2026-03-30 17:14:52] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:14:52] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: addSectorSuccessfully
+[2026-03-30 17:14:52] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e261b70968442c30db979e52efa4d258, clickElement {id=f.C62DD40B0EAA787E1E1AF73357AC110D.d.98926C512531E60657B463319A71356C.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50547}, goog:processID: 28816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50547/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e261b70968442c30db979e52efa4d258)] -> css selector: h5.title-list ~ button.btn-primary]
+Session ID: e261b70968442c30db979e52efa4d258
+[2026-03-30 17:14:52] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:14:52] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:14:52] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddEditDeleteSectorTest/addSectorSuccessfully_2026-03-30_17-14-52.png
+[2026-03-30 17:14:57] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:57] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:57] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:00] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:15:00] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:15:00] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: editSectorSuccessfully
+[2026-03-30 17:15:00] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: BaseSector_1774883700892
+[2026-03-30 17:15:01] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: h5.title-list ~ button.btn-primary
+[2026-03-30 17:15:03] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [BaseSector_1774883700892] into By.cssSelector: input[type='text'].form-control
+[2026-03-30 17:15:03] [INFO ] com.DoneProject.Pages.SectorsPage - Clicking the save button for the sector
+[2026-03-30 17:15:04] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-primary[type='submit']
+[2026-03-30 17:15:04] [INFO ] com.DoneProject.Pages.SectorsPage - Editing sector: BaseSector_1774883700892 -> UpdatedSector_1774883700892
+[2026-03-30 17:15:24] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.xpath: //div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883700892']]//button[@title='Edit'] - Expected condition failed: waiting for element found by By.xpath: //div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883700892']]//button[@title='Edit'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883700892']]//button[@title='Edit']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61050}, goog:processID: 10840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61050/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8223267ff0c3180b8778fde00e55fc2
+[2026-03-30 17:15:24] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:15:24] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: editSectorSuccessfully
+[2026-03-30 17:15:24] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected condition failed: waiting for element found by By.xpath: //div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883700892']]//button[@title='Edit'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883700892']]//button[@title='Edit']"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61050}, goog:processID: 10840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61050/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8223267ff0c3180b8778fde00e55fc2
+[2026-03-30 17:15:24] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:15:24] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:15:24] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddEditDeleteSectorTest/editSectorSuccessfully_2026-03-30_17-15-24.png
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:33] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:15:33] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:15:33] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: deleteSectorSuccessfully
+[2026-03-30 17:15:33] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: DeleteSector_1774883733511
+[2026-03-30 17:15:34] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.cssSelector: h5.title-list ~ button.btn-primary - unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a30372c92565684cc4a6453d3d6a572, clickElement {id=f.5801A64D9D6ACBAFC24A9223205DAB07.d.FDABCABB1DD7E1269CA49B741E0759AB.e.85}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58307}, goog:processID: 9920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58307/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6a30372c92565684cc4a6453d3d6a572)] -> css selector: h5.title-list ~ button.btn-primary]
+Session ID: 6a30372c92565684cc4a6453d3d6a572
+[2026-03-30 17:15:34] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:15:34] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: deleteSectorSuccessfully
+[2026-03-30 17:15:34] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a30372c92565684cc4a6453d3d6a572, clickElement {id=f.5801A64D9D6ACBAFC24A9223205DAB07.d.FDABCABB1DD7E1269CA49B741E0759AB.e.85}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58307}, goog:processID: 9920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58307/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6a30372c92565684cc4a6453d3d6a572)] -> css selector: h5.title-list ~ button.btn-primary]
+Session ID: 6a30372c92565684cc4a6453d3d6a572
+[2026-03-30 17:15:34] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:15:34] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:15:34] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddEditDeleteSectorTest/deleteSectorSuccessfully_2026-03-30_17-15-34.png
+[2026-03-30 17:15:34] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: automation DONE
+[2026-03-30 17:15:34] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=0, Failed=3, Skipped=0
+[2026-03-30 17:16:15] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:21] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:16:21] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:16:21] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addProjectSuccessfully
+[2026-03-30 17:16:21] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.Pages.ProjectsPage - Opening sector: Automation Sector Updated
+[2026-03-30 17:16:48] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.xpath: //a[.//h4[normalize-space()='Automation Sector Updated']] - Expected condition failed: waiting for element found by By.xpath: //a[.//h4[normalize-space()='Automation Sector Updated']] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[.//h4[normalize-space()='Automation Sector Updated']]"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57497}, goog:processID: 1148, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57497/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8becb3f2981612614ca185ebb692a6d
+[2026-03-30 17:16:48] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:16:48] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: addProjectSuccessfully
+[2026-03-30 17:16:48] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected condition failed: waiting for element found by By.xpath: //a[.//h4[normalize-space()='Automation Sector Updated']] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[.//h4[normalize-space()='Automation Sector Updated']]"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57497}, goog:processID: 1148, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57497/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8becb3f2981612614ca185ebb692a6d
+[2026-03-30 17:16:48] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:16:48] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:16:48] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddProjectTest/addProjectSuccessfully_2026-03-30_17-16-48.png
+[2026-03-30 17:16:53] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:53] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:54] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:16:54] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:16:54] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addProjectWithSpecialChars
+[2026-03-30 17:16:54] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.Pages.ProjectsPage - Opening sector: Automation Sector Updated
+[2026-03-30 17:16:58] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.xpath: //a[.//h4[normalize-space()='Automation Sector Updated']] - unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f5b2ae69568e31f7e43b0599c85a4af2, findElement {using=xpath, value=//a[.//h4[normalize-space()='Automation Sector Updated']]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60952}, goog:processID: 22508, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60952/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5b2ae69568e31f7e43b0599c85a4af2
+[2026-03-30 17:16:58] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:16:58] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: addProjectWithSpecialChars
+[2026-03-30 17:16:58] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f5b2ae69568e31f7e43b0599c85a4af2, findElement {using=xpath, value=//a[.//h4[normalize-space()='Automation Sector Updated']]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60952}, goog:processID: 22508, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60952/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5b2ae69568e31f7e43b0599c85a4af2
+[2026-03-30 17:16:58] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:16:58] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:16:58] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddProjectTest/addProjectWithSpecialChars_2026-03-30_17-16-58.png
+[2026-03-30 17:18:57] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:19:05] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:06] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:06] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:19:06] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addSectorSuccessfully
+[2026-03-30 17:19:06] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: AutoSector_1774883946281
+[2026-03-30 17:19:07] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: h5.title-list ~ button.btn-primary
+[2026-03-30 17:19:09] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [AutoSector_1774883946281] into By.cssSelector: input[type='text'].form-control
+[2026-03-30 17:19:09] [INFO ] com.DoneProject.Pages.SectorsPage - Clicking the save button for the sector
+[2026-03-30 17:19:10] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-primary[type='submit']
+[2026-03-30 17:19:11] [INFO ] com.DoneProject.Pages.BasePage - Intercepted toasts: [Add Done, Add Done]
+[2026-03-30 17:19:16] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:19:16] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: addSectorSuccessfully
+[2026-03-30 17:19:16] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:19:16] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:19:24] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:25] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:25] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:19:25] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: editSectorSuccessfully
+[2026-03-30 17:19:25] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: BaseSector_1774883965108
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: h5.title-list ~ button.btn-primary
+[2026-03-30 17:19:28] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [BaseSector_1774883965108] into By.cssSelector: input[type='text'].form-control
+[2026-03-30 17:19:28] [INFO ] com.DoneProject.Pages.SectorsPage - Clicking the save button for the sector
+[2026-03-30 17:19:28] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-primary[type='submit']
+[2026-03-30 17:19:28] [INFO ] com.DoneProject.Pages.SectorsPage - Editing sector: BaseSector_1774883965108 -> UpdatedSector_1774883965108
+[2026-03-30 17:19:30] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883965108']]//button[@title='Edit']
+[2026-03-30 17:19:34] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [UpdatedSector_1774883965108] into By.cssSelector: input[type='text'].form-control
+[2026-03-30 17:19:34] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-primary[type='submit']
+[2026-03-30 17:19:36] [INFO ] com.DoneProject.Pages.BasePage - Intercepted toasts: [EditDone, EditDone]
+[2026-03-30 17:19:41] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:19:41] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: editSectorSuccessfully
+[2026-03-30 17:19:41] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:19:41] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:19:49] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:50] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:50] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:19:50] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: deleteSectorSuccessfully
+[2026-03-30 17:19:50] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: DeleteSector_1774883990136
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: h5.title-list ~ button.btn-primary
+[2026-03-30 17:19:53] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [DeleteSector_1774883990136] into By.cssSelector: input[type='text'].form-control
+[2026-03-30 17:19:53] [INFO ] com.DoneProject.Pages.SectorsPage - Clicking the save button for the sector
+[2026-03-30 17:19:53] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-primary[type='submit']
+[2026-03-30 17:19:53] [INFO ] com.DoneProject.Pages.SectorsPage - Deleting sector: DeleteSector_1774883990136
+[2026-03-30 17:19:55] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //div[contains(@class,'projectCard')][.//text()[normalize-space()='DeleteSector_1774883990136']]//button[@title='Delete']
+[2026-03-30 17:19:56] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-danger
+[2026-03-30 17:19:56] [INFO ] com.DoneProject.Pages.BasePage - Intercepted toasts: [Add Done, Add Done]
+[2026-03-30 17:19:56] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:19:56] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: deleteSectorSuccessfully
+[2026-03-30 17:19:56] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected 'Delete Done' toast not found! Actual: [Add Done, Add Done] expected [true] but found [false]
+[2026-03-30 17:19:56] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:19:56] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:56] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddEditDeleteSectorTest/deleteSectorSuccessfully_2026-03-30_17-19-56.png
+[2026-03-30 17:19:56] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: automation DONE
+[2026-03-30 17:19:56] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=2, Failed=1, Skipped=0
