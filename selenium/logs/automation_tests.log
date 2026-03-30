@@ -1,922 +1,622 @@
-[2026-03-11 12:33:45] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-11 12:33:45] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-11 12:33:45] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-11 12:33:45] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-11 12:33:45] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-11 12:33:45] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.utils.LogUtils - Test Started
-[2026-03-11 12:33:49] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-11 12:33:53] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.id: notifictions
-[2026-03-11 12:33:53] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.id: notifictions
-[2026-03-11 12:33:53] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي للتمرير: By.xpath: //a[@routerlink='/rolls']
-[2026-03-11 12:33:53] [INFO ] com.DoneProject.helpers.ActionBot - 📜 جاري التمرير إلى العنصر: By.xpath: //a[@routerlink='/rolls']
-[2026-03-11 12:33:53] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم التمرير بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
-[2026-03-11 12:33:53] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.xpath: //a[@routerlink='/rolls']
-[2026-03-11 12:33:53] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.xpath: //a[@routerlink='/rolls']
-[2026-03-11 12:33:53] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.xpath: //a[@routerlink='/rolls']
-[2026-03-11 12:33:53] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-11 12:33:55] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-11 12:33:55] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-11 12:33:55] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-11 12:33:55] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: .btn-add
-[2026-03-11 12:33:55] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: .btn-add
-[2026-03-11 12:33:55] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: name
-[2026-03-11 12:33:56] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: Automation RoleEeewwewe
-[2026-03-11 12:33:56] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [Automation RoleEeewwewe] في العنصر: By.id: name
-[2026-03-11 12:33:56] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
-[2026-03-11 12:33:56] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
-[2026-03-11 12:33:56] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار Toast أن يختفي...
-[2026-03-11 12:33:56] [INFO ] com.DoneProject.Pages.BasePage - ✅ Toast اختفى بنجاح
-[2026-03-15 13:30:00] [INFO ] com.DoneProject.utils.ConfigReader - ℹ️ config.properties غير موجود — يتم استخدام القيم الافتراضية
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-15 13:30:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.id: notifictions
-[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.id: notifictions
-[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي للتمرير: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - 📜 جاري التمرير إلى العنصر: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم التمرير بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:30:26] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:30:26] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:30:27] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:30:27] [INFO ] com.DoneProject.Pages.NavBarPage - ✅ تم الانتقال بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:30:27] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:30:28] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:30:28] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: .btn-add
-[2026-03-15 13:30:29] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: .btn-add
-[2026-03-15 13:30:29] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: name
-[2026-03-15 13:30:29] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: Automation RoleEeewwewe
-[2026-03-15 13:30:30] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [Automation RoleEeewwewe] في العنصر: By.id: name
-[2026-03-15 13:30:30] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
-[2026-03-15 13:30:30] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
-[2026-03-15 13:30:30] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار Toast أن يختفي...
-[2026-03-15 13:30:30] [INFO ] com.DoneProject.Pages.BasePage - ✅ Toast اختفى بنجاح
-[2026-03-15 13:30:30] [INFO ] com.DoneProject.Pages.RolesPage - ✅ تم إضافة الدور: Automation RoleEeewwewe
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-15 13:37:32] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.id: notifictions
-[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.id: notifictions
-[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي للتمرير: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - 📜 جاري التمرير إلى العنصر: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم التمرير بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:37:35] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:37:35] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.NavBarPage - ✅ تم الانتقال بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: .btn-add
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: .btn-add
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: name
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: Automation RoleEeewwewe
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [Automation RoleEeewwewe] في العنصر: By.id: name
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار Toast أن يختفي...
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.BasePage - ✅ Toast اختفى بنجاح
-[2026-03-15 13:37:36] [INFO ] com.DoneProject.Pages.RolesPage - ✅ تم إضافة الدور: Automation RoleEeewwewe
-[2026-03-15 13:41:10] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-15 13:41:10] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-15 13:41:10] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:41:10] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:41:10] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-15 13:41:11] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.id: notifictions
-[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.id: notifictions
-[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي للتمرير: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - 📜 جاري التمرير إلى العنصر: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم التمرير بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:41:13] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:41:13] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:41:14] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:41:14] [INFO ] com.DoneProject.Pages.NavBarPage - ✅ تم الانتقال بنجاح إلى: By.xpath: //a[@routerlink='/rolls']
-[2026-03-15 13:41:14] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-15 13:41:14] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-15 13:41:14] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: .btn-add
-[2026-03-15 13:41:15] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: .btn-add
-[2026-03-15 13:41:15] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: name
-[2026-03-15 13:41:15] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: Automation RoleEeewwewe
-[2026-03-15 13:41:16] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [Automation RoleEeewwewe] في العنصر: By.id: name
-[2026-03-15 13:41:16] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
-[2026-03-15 13:41:16] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.xpath: //div[@id='offcanvasposition']//button[@type='submit'][normalize-space()='Save']
-[2026-03-15 13:41:16] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار Toast أن يختفي...
-[2026-03-15 13:41:16] [INFO ] com.DoneProject.Pages.BasePage - ✅ Toast اختفى بنجاح
-[2026-03-15 13:41:16] [INFO ] com.DoneProject.Pages.RolesPage - ✅ تم إضافة الدور: Automation RoleEeewwewe
-[2026-03-16 11:22:52] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:22:52] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:22:52] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:22:52] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:22:52] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:22:52] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:22:52] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:22:52] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:22:52] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:22:53] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:22:53] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:22:53] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:22:53] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:22:53] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:22:53] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:22:53] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:22:53] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:22:53] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:22:53] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:22:53] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:23:13] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
+[2026-03-30 17:10:24] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:34] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Roles Management
+[2026-03-30 17:10:44] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/rolls']
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:45] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:10:45] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:10:45] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testAddRoleSuccessfully
+[2026-03-30 17:10:45] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:10:45] [INFO ] com.DoneProject.Pages.RolesPage - Adding role: AutoRole_1774883445294
+[2026-03-30 17:10:46] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.cssSelector: .btn-add - element click intercepted: Element <button _ngcontent-dex-c43="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasposition" aria-controls="offcanvasposition" class="btn-add">...</button> is not clickable at point (1812, 92). Other element would receive the click: <h4 _ngcontent-dex-c43="" class="d-inline-block projectstitlereport">...</h4>
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fea610b9895cd2eee1e2f15a107dc16, clickElement {id=f.1A303C474056E53A344C541E32CCF2AA.d.5C07E717DFD188B245133BE1A48D0CAA.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65139}, goog:processID: 6948, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65139/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9fea610b9895cd2eee1e2f15a107dc16)] -> css selector: .btn-add]
+Session ID: 9fea610b9895cd2eee1e2f15a107dc16
+[2026-03-30 17:10:46] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:10:46] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: testAddRoleSuccessfully
+[2026-03-30 17:10:46] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: element click intercepted: Element <button _ngcontent-dex-c43="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasposition" aria-controls="offcanvasposition" class="btn-add">...</button> is not clickable at point (1812, 92). Other element would receive the click: <h4 _ngcontent-dex-c43="" class="d-inline-block projectstitlereport">...</h4>
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9fea610b9895cd2eee1e2f15a107dc16, clickElement {id=f.1A303C474056E53A344C541E32CCF2AA.d.5C07E717DFD188B245133BE1A48D0CAA.e.58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65139}, goog:processID: 6948, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65139/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9fea610b9895cd2eee1e2f15a107dc16)] -> css selector: .btn-add]
+Session ID: 9fea610b9895cd2eee1e2f15a107dc16
+[2026-03-30 17:10:46] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:10:46] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:10:46] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddRoleTest/testAddRoleSuccessfully_2026-03-30_17-10-46.png
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:52] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Roles Management
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/rolls']
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:10:55] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:10:55] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:10:55] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addRoleWithSpecialChars
+[2026-03-30 17:10:55] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:10:55] [INFO ] com.DoneProject.Pages.RolesPage - Adding role: Role!@#$%^1774883455840
+[2026-03-30 17:10:56] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.cssSelector: .btn-add - element click intercepted: Element <button _ngcontent-fio-c43="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasposition" aria-controls="offcanvasposition" class="btn-add">...</button> is not clickable at point (1812, 92). Other element would receive the click: <h4 _ngcontent-fio-c43="" class="d-inline-block projectstitlereport">...</h4>
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c19d4dbf15d65e227f13942a2130aec4, clickElement {id=f.D4B844271A8DDFA3C81AF2C0D6CA9EB8.d.61A99DDE3D07A5C1DA84CF9252DA9A9D.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60779}, goog:processID: 6940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60779/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c19d4dbf15d65e227f13942a2130aec4)] -> css selector: .btn-add]
+Session ID: c19d4dbf15d65e227f13942a2130aec4
+[2026-03-30 17:10:56] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:10:56] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: addRoleWithSpecialChars
+[2026-03-30 17:10:56] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: element click intercepted: Element <button _ngcontent-fio-c43="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasposition" aria-controls="offcanvasposition" class="btn-add">...</button> is not clickable at point (1812, 92). Other element would receive the click: <h4 _ngcontent-fio-c43="" class="d-inline-block projectstitlereport">...</h4>
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c19d4dbf15d65e227f13942a2130aec4, clickElement {id=f.D4B844271A8DDFA3C81AF2C0D6CA9EB8.d.61A99DDE3D07A5C1DA84CF9252DA9A9D.e.75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60779}, goog:processID: 6940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60779/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c19d4dbf15d65e227f13942a2130aec4)] -> css selector: .btn-add]
+Session ID: c19d4dbf15d65e227f13942a2130aec4
+[2026-03-30 17:10:56] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:10:56] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:10:57] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddRoleTest/addRoleWithSpecialChars_2026-03-30_17-10-56.png
+[2026-03-30 17:11:02] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:02] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:02] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:03] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Roles Management
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/rolls']
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:06] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:11:06] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:11:06] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addAndDeleteRoleLifecycle
+[2026-03-30 17:11:06] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:11:06] [INFO ] com.DoneProject.Pages.RolesPage - Adding role: DeleteMe_1774883466523
+[2026-03-30 17:11:07] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.cssSelector: .btn-add - unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0e7be11c7319539c4143501c33e9bc2, clickElement {id=f.1A0E57A560B24225C96964B167186C51.d.8BC37274EAA6E17B08C1C159A2793AEB.e.90}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56175}, goog:processID: 24016, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56175/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a0e7be11c7319539c4143501c33e9bc2)] -> css selector: .btn-add]
+Session ID: a0e7be11c7319539c4143501c33e9bc2
+[2026-03-30 17:11:07] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:11:07] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: addAndDeleteRoleLifecycle
+[2026-03-30 17:11:07] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0e7be11c7319539c4143501c33e9bc2, clickElement {id=f.1A0E57A560B24225C96964B167186C51.d.8BC37274EAA6E17B08C1C159A2793AEB.e.90}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56175}, goog:processID: 24016, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56175/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a0e7be11c7319539c4143501c33e9bc2)] -> css selector: .btn-add]
+Session ID: a0e7be11c7319539c4143501c33e9bc2
+[2026-03-30 17:11:07] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:11:07] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:11:07] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddRoleTest/addAndDeleteRoleLifecycle_2026-03-30_17-11-07.png
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:13] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Roles Management
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/rolls']
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:16] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:11:16] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:11:16] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addRoleAndEditPermissions
+[2026-03-30 17:11:16] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:11:16] [INFO ] com.DoneProject.Pages.RolesPage - Adding role: PermRole_1774883476919
+[2026-03-30 17:11:17] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: .btn-add
+[2026-03-30 17:11:18] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [PermRole_1774883476919] into By.id: name
+[2026-03-30 17:11:42] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-30 17:11:47] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:47] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testEmptyFieldsValidation
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:11:47] [INFO ] tests.DoneProject.login.LoginTest - Executing testEmptyFieldsValidation
+[2026-03-30 17:11:48] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [] into By.id: validationServer01
+[2026-03-30 17:11:48] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [] into By.id: validationServer02
+[2026-03-30 17:11:48] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:11:48] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:11:48] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:11:58] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:11:58] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testEmptyFieldsValidation
+[2026-03-30 17:11:58] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:11:58] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:12:04] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: invalidUser@example.com
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [invalidUser@example.com] into By.id: validationServer01
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [wrongPass!] into By.id: validationServer02
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:04] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:14] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:14] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+[2026-03-30 17:12:14] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:14] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:12:20] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user: ismealadmin
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [wrongPass!] into By.id: validationServer02
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:20] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:30] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:30] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+[2026-03-30 17:12:30] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:30] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testInvalidLogin
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:12:36] [INFO ] tests.DoneProject.login.LoginTest - Executing testInvalidLogin for user:  
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ ] into By.id: validationServer01
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ ] into By.id: validationServer02
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:36] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:47] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:47] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testInvalidLogin
+[2026-03-30 17:12:47] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:47] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.login.LoginTest - Setting up LoginTest: initializing LoginPage
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testSuccessfulLogin
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:12:52] [INFO ] tests.DoneProject.login.LoginTest - Executing testSuccessfulLogin for user: ismealadmin
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:12:52] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: testSuccessfulLogin
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: automation DONE
+[2026-03-30 17:12:55] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=5, Failed=0, Skipped=0
+[2026-03-30 17:13:21] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:13:28] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Recurring Tasks
+[2026-03-30 17:13:31] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:13:51] [ERROR] com.DoneProject.helpers.ActionBot - Failed to scroll to element: By.xpath: //a[@routerlink='/recurring-task'] - Expected condition failed: waiting for visibility of element found by By.xpath: //a[@routerlink='/recurring-task'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@routerlink='/recurring-task']"}.
 (tried for 20 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56120}, goog:processID: 18944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56120/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ca87a26e14c79adf233e096a854deb7
-[2026-03-16 11:23:13] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addProjectSuccessfully_2026-03-16_11-23-13.png
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:23:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:23:24] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=146.0.7680.80)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49920}, goog:processID: 28428, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49920/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d1b92ca5865859f1e3e0c1323bbff87
+[2026-03-30 17:13:51] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:13:51] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:13:51] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testAddDailyRecurringTask
+[2026-03-30 17:13:51] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:13:51] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:13:51] [WARN ] tests.DoneProject.listeners.TestListener - ⚠️ TEST SKIPPED: testAddDailyRecurringTask
+[2026-03-30 17:13:51] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:13:51] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:13:55] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:13:55] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:13:55] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testAddWeeklyTaskWithMultipleUsers
+[2026-03-30 17:13:55] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:13:55] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:13:55] [WARN ] tests.DoneProject.listeners.TestListener - ⚠️ TEST SKIPPED: testAddWeeklyTaskWithMultipleUsers
+[2026-03-30 17:13:55] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:13:55] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: testAddMonthlyRecurringTask
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:14:01] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:14:01] [WARN ] tests.DoneProject.listeners.TestListener - ⚠️ TEST SKIPPED: testAddMonthlyRecurringTask
+[2026-03-30 17:14:01] [WARN ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: automation DONE
+[2026-03-30 17:14:01] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=0, Failed=0, Skipped=3
+[2026-03-30 17:14:06] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:12] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Recurring Tasks
+[2026-03-30 17:14:14] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:14:42] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:48] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:14:50] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:51] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:14:51] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:14:51] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addSectorSuccessfully
+[2026-03-30 17:14:51] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:14:51] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: AutoSector_1774883691165
+[2026-03-30 17:14:52] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.cssSelector: h5.title-list ~ button.btn-primary - unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [74c00e5cd5515242e3f06c88928f97b3, findElement {using=id, value=notifictions}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52102}, goog:processID: 7708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52102/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 74c00e5cd5515242e3f06c88928f97b3
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:23:28] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:23:33] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.id: notifictions
-[2026-03-16 11:23:33] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.id: notifictions
-[2026-03-16 11:23:33] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي للتمرير: By.xpath: //a[@routerlink='/adminstration']
-[2026-03-16 11:23:33] [INFO ] com.DoneProject.helpers.ActionBot - 📜 جاري التمرير إلى العنصر: By.xpath: //a[@routerlink='/adminstration']
-[2026-03-16 11:23:33] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم التمرير بنجاح إلى: By.xpath: //a[@routerlink='/adminstration']
-[2026-03-16 11:23:33] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.xpath: //a[@routerlink='/adminstration']
-[2026-03-16 11:23:33] [INFO ] com.DoneProject.helpers.ActionBot - ⚙️ جاري النقر باستخدام JavaScript على: By.xpath: //a[@routerlink='/adminstration']
-[2026-03-16 11:23:33] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر بـ JavaScript بنجاح على: By.xpath: //a[@routerlink='/adminstration']
-[2026-03-16 11:23:33] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:23:34] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:23:34] [INFO ] com.DoneProject.Pages.NavBarPage - ✅ تم الانتقال بنجاح إلى: By.xpath: //a[@routerlink='/adminstration']
-[2026-03-16 11:23:34] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:23:34] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:23:34] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: h5.title-list ~ button.btn-primary
-[2026-03-16 11:23:54] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر على العنصر: By.cssSelector: h5.title-list ~ button.btn-primary - الخطأ: Expected condition failed: waiting for element found by By.cssSelector: h5.title-list ~ button.btn-primary to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"h5.title-list ~ button.btn-primary"}.
+Command: [e261b70968442c30db979e52efa4d258, clickElement {id=f.C62DD40B0EAA787E1E1AF73357AC110D.d.98926C512531E60657B463319A71356C.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50547}, goog:processID: 28816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50547/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e261b70968442c30db979e52efa4d258)] -> css selector: h5.title-list ~ button.btn-primary]
+Session ID: e261b70968442c30db979e52efa4d258
+[2026-03-30 17:14:52] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:14:52] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: addSectorSuccessfully
+[2026-03-30 17:14:52] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e261b70968442c30db979e52efa4d258, clickElement {id=f.C62DD40B0EAA787E1E1AF73357AC110D.d.98926C512531E60657B463319A71356C.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50547}, goog:processID: 28816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50547/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e261b70968442c30db979e52efa4d258)] -> css selector: h5.title-list ~ button.btn-primary]
+Session ID: e261b70968442c30db979e52efa4d258
+[2026-03-30 17:14:52] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:14:52] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:14:52] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddEditDeleteSectorTest/addSectorSuccessfully_2026-03-30_17-14-52.png
+[2026-03-30 17:14:57] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:57] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:57] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:14:58] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:00] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:15:00] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:15:00] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: editSectorSuccessfully
+[2026-03-30 17:15:00] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:15:00] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: BaseSector_1774883700892
+[2026-03-30 17:15:01] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: h5.title-list ~ button.btn-primary
+[2026-03-30 17:15:03] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [BaseSector_1774883700892] into By.cssSelector: input[type='text'].form-control
+[2026-03-30 17:15:03] [INFO ] com.DoneProject.Pages.SectorsPage - Clicking the save button for the sector
+[2026-03-30 17:15:04] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-primary[type='submit']
+[2026-03-30 17:15:04] [INFO ] com.DoneProject.Pages.SectorsPage - Editing sector: BaseSector_1774883700892 -> UpdatedSector_1774883700892
+[2026-03-30 17:15:24] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.xpath: //div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883700892']]//button[@title='Edit'] - Expected condition failed: waiting for element found by By.xpath: //div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883700892']]//button[@title='Edit'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883700892']]//button[@title='Edit']"}.
 (tried for 20 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56161}, goog:processID: 20164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56161/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b7aa4973965172fd26ffd0b83492086d
-[2026-03-16 11:23:54] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addSectorSuccessfully_2026-03-16_11-23-54.png
-[2026-03-16 11:23:59] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:23:59] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:23:59] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:23:59] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:23:59] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:23:59] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:23:59] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:23:59] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:23:59] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:24:00] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:24:00] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:24:00] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:24:00] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:24:00] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:24:00] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:24:00] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:24:00] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:24:00] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:24:00] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:24:00] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:24:04] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=146.0.7680.80)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47a7311e081051df192327107b70da84, findElement {using=id, value=notifictions}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54072}, goog:processID: 13172, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54072/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 47a7311e081051df192327107b70da84
-[2026-03-16 11:24:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:24:11] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:24:11] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:24:36] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:24:56] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61050}, goog:processID: 10840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61050/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8223267ff0c3180b8778fde00e55fc2
+[2026-03-30 17:15:24] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:15:24] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: editSectorSuccessfully
+[2026-03-30 17:15:24] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected condition failed: waiting for element found by By.xpath: //div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883700892']]//button[@title='Edit'] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883700892']]//button[@title='Edit']"}.
 (tried for 20 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49677}, goog:processID: 20096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49677/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2ac2dee2fdf9e2734fc168b7d3ffb39f
-[2026-03-16 11:24:57] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/testAddUser_2026-03-16_11-24-56.png
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:25:01] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:25:06] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=146.0.7680.80)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61050}, goog:processID: 10840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61050/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8223267ff0c3180b8778fde00e55fc2
+[2026-03-30 17:15:24] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:15:24] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:15:24] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddEditDeleteSectorTest/editSectorSuccessfully_2026-03-30_17-15-24.png
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:30] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:15:33] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:15:33] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:15:33] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: deleteSectorSuccessfully
+[2026-03-30 17:15:33] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:15:33] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: DeleteSector_1774883733511
+[2026-03-30 17:15:34] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.cssSelector: h5.title-list ~ button.btn-primary - unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5562b2fc0bcd990c352468623111141a, findElement {using=id, value=notifictions}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52944}, goog:processID: 19748, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52944/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5562b2fc0bcd990c352468623111141a
-[2026-03-16 11:25:10] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:25:10] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:25:10] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:25:10] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:25:10] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:25:10] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:25:10] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:25:10] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:25:11] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:25:29] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=146.0.7680.80)
+Command: [6a30372c92565684cc4a6453d3d6a572, clickElement {id=f.5801A64D9D6ACBAFC24A9223205DAB07.d.FDABCABB1DD7E1269CA49B741E0759AB.e.85}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58307}, goog:processID: 9920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58307/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6a30372c92565684cc4a6453d3d6a572)] -> css selector: h5.title-list ~ button.btn-primary]
+Session ID: 6a30372c92565684cc4a6453d3d6a572
+[2026-03-30 17:15:34] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:15:34] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: deleteSectorSuccessfully
+[2026-03-30 17:15:34] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c090576a827e8b072533504748b93f0c, findElement {using=id, value=notifictions}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50967}, goog:processID: 17876, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50967/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c090576a827e8b072533504748b93f0c
-[2026-03-16 11:25:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:25:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:25:32] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:25:56] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:25:56] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:25:56] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:25:56] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:25:56] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:25:56] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:25:56] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:25:56] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:25:56] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:25:57] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:25:57] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:25:57] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:25:57] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:25:57] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:25:57] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:25:57] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:25:57] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:25:57] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:25:57] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:25:57] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:26:17] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
+Command: [6a30372c92565684cc4a6453d3d6a572, clickElement {id=f.5801A64D9D6ACBAFC24A9223205DAB07.d.FDABCABB1DD7E1269CA49B741E0759AB.e.85}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58307}, goog:processID: 9920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58307/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6a30372c92565684cc4a6453d3d6a572)] -> css selector: h5.title-list ~ button.btn-primary]
+Session ID: 6a30372c92565684cc4a6453d3d6a572
+[2026-03-30 17:15:34] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:15:34] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:15:34] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddEditDeleteSectorTest/deleteSectorSuccessfully_2026-03-30_17-15-34.png
+[2026-03-30 17:15:34] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: automation DONE
+[2026-03-30 17:15:34] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=0, Failed=3, Skipped=0
+[2026-03-30 17:16:15] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:21] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:16:21] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:16:21] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addProjectSuccessfully
+[2026-03-30 17:16:21] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:21] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:28] [INFO ] com.DoneProject.Pages.ProjectsPage - Opening sector: Automation Sector Updated
+[2026-03-30 17:16:48] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.xpath: //a[.//h4[normalize-space()='Automation Sector Updated']] - Expected condition failed: waiting for element found by By.xpath: //a[.//h4[normalize-space()='Automation Sector Updated']] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[.//h4[normalize-space()='Automation Sector Updated']]"}.
 (tried for 20 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49671}, goog:processID: 18160, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49671/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7b51f07c9a7ec9b34d9153c8b79a76f2
-[2026-03-16 11:26:17] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/testDeleteTask_2026-03-16_11-26-17.png
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:26:21] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:26:42] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:26:46] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:26:50] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=146.0.7680.80)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9b9064da3965d1ccbbf139cd002a2ffb, findElement {using=id, value=notifictions}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61242}, goog:processID: 15472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61242/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9b9064da3965d1ccbbf139cd002a2ffb
-[2026-03-16 11:26:54] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:26:54] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:26:54] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:27:17] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:27:17] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:27:17] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:27:18] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:27:38] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57497}, goog:processID: 1148, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57497/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8becb3f2981612614ca185ebb692a6d
+[2026-03-30 17:16:48] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:16:48] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: addProjectSuccessfully
+[2026-03-30 17:16:48] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected condition failed: waiting for element found by By.xpath: //a[.//h4[normalize-space()='Automation Sector Updated']] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[.//h4[normalize-space()='Automation Sector Updated']]"}.
 (tried for 20 seconds with 500 milliseconds interval)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62055}, goog:processID: 3544, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62055/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 26cd44db55bced62a0233ceac12995e9
-[2026-03-16 11:27:38] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/deleteSectorSuccessfully_2026-03-16_11-27-38.png
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:27:43] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:28:03] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57497}, goog:processID: 1148, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57497/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8becb3f2981612614ca185ebb692a6d
+[2026-03-30 17:16:48] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:16:48] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:16:48] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddProjectTest/addProjectSuccessfully_2026-03-30_17-16-48.png
+[2026-03-30 17:16:53] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:53] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:54] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:16:54] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:16:54] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addProjectWithSpecialChars
+[2026-03-30 17:16:54] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:54] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:16:57] [INFO ] com.DoneProject.Pages.ProjectsPage - Opening sector: Automation Sector Updated
+[2026-03-30 17:16:58] [ERROR] com.DoneProject.helpers.ActionBot - Failed to click element: By.xpath: //a[.//h4[normalize-space()='Automation Sector Updated']] - unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56528}, goog:processID: 18644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56528/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: feef5b33df074e4a86237fe53e943ca6
-[2026-03-16 11:28:03] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/testEditTask_2026-03-16_11-28-03.png
-[2026-03-16 11:28:07] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:28:07] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:28:07] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:28:07] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:28:07] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-16 11:28:07] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-16 11:28:07] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-16 11:28:07] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-16 11:28:08] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-16 11:28:26] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=146.0.7680.80)
+Command: [f5b2ae69568e31f7e43b0599c85a4af2, findElement {using=xpath, value=//a[.//h4[normalize-space()='Automation Sector Updated']]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60952}, goog:processID: 22508, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60952/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5b2ae69568e31f7e43b0599c85a4af2
+[2026-03-30 17:16:58] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:16:58] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: addProjectWithSpecialChars
+[2026-03-30 17:16:58] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Promise was collected"}
+  (Session info: chrome=146.0.7680.165)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bab4f6d247fdd928c7e43c43aabaeafd, findElement {using=id, value=notifictions}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54487}, goog:processID: 6736, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54487/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bab4f6d247fdd928c7e43c43aabaeafd
-[2026-03-17 22:25:57] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:25:57] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:25:57] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:25:57] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:25:57] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:25:57] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:25:58] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:26:18] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61133}, goog:processID: 16288, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61133/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4aaf4244fed465a1ca84479b7714deac
-[2026-03-17 22:26:18] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addProjectSuccessfully_2026-03-17_22-26-18.png
-[2026-03-17 22:26:31] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:26:31] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:26:31] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:26:31] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:26:31] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:26:31] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:26:31] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:26:31] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:26:31] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:26:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:26:32] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:26:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:26:32] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:26:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:26:32] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:26:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:26:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:26:32] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:26:32] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:26:32] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:26:52] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59662}, goog:processID: 23524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59662/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7172c57dd572e4e03580c023fbc21348
-[2026-03-17 22:26:52] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addProjectWithSpecialChars_2026-03-17_22-26-52.png
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:26:56] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:27:16] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54558}, goog:processID: 15900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54558/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e640353528fa61d9870f7cf4ee369fc4
-[2026-03-17 22:27:17] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addProjectWithLongName_2026-03-17_22-27-16.png
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:27:23] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:27:43] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65277}, goog:processID: 24184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65277/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bd6abf0a4c0ce93635d1ac05693da378
-[2026-03-17 22:27:44] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addMultipleProjectsSequential_2026-03-17_22-27-43.png
-[2026-03-17 22:27:57] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:27:57] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:27:57] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:27:57] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:27:57] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:27:57] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:27:57] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:27:57] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:27:57] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:27:57] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:27:57] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:27:58] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:27:58] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:27:58] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:27:58] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:27:58] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:27:58] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:27:58] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:27:58] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:27:58] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:28:18] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65156}, goog:processID: 332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65156/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8ee3df9999ee313a080051f2010fa243
-[2026-03-17 22:28:18] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addAndDeleteProjectLifecycle_2026-03-17_22-28-18.png
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:31:21] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:31:42] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59066}, goog:processID: 19164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59066/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e0ad1c697c7f9ebfd049789241bbccf
-[2026-03-17 22:31:42] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addProjectSuccessfully_2026-03-17_22-31-42.png
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:31:51] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:32:11] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52211}, goog:processID: 11036, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52211/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90aa6e083cb33ed43dd926f49e25dbde
-[2026-03-17 22:32:12] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/testAddRoleSuccessfully_2026-03-17_22-32-11.png
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:32:29] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:32:30] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:32:30] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:32:30] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:32:30] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:32:30] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:32:30] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:32:30] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:32:30] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:32:50] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50632}, goog:processID: 15820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50632/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e31864af9d3bf603b828446050da93ee
-[2026-03-17 22:32:50] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addRoleWithSpecialChars_2026-03-17_22-32-50.png
-[2026-03-17 22:32:54] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:32:54] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:32:54] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:32:54] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:32:54] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:32:54] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:32:55] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:33:15] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60992}, goog:processID: 5204, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60992/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d9c659fb2160039c83f4a9f3bb51e74e
-[2026-03-17 22:33:15] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addAndDeleteRoleLifecycle_2026-03-17_22-33-15.png
-[2026-03-17 22:33:25] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:33:25] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:33:25] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:33:25] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:33:25] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:33:25] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:33:25] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:33:25] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:33:25] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:33:26] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:33:26] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:33:26] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:33:26] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:33:26] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:33:26] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:33:26] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:33:26] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:33:26] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:33:26] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:33:26] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:33:46] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56031}, goog:processID: 12448, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56031/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 524c4f0904b636de32d7fdf9270b3e98
-[2026-03-17 22:33:46] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addRoleAndEditPermissions_2026-03-17_22-33-46.png
-[2026-03-17 22:34:00] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:34:00] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:34:00] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:34:00] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:34:00] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:34:00] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:34:00] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:34:00] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:34:01] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:34:21] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64411}, goog:processID: 22888, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64411/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d6cd916efbb047aa4bafe7aca240471
-[2026-03-17 22:34:22] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/testAddUserSuccessfully_2026-03-17_22-34-21.png
-[2026-03-17 22:34:34] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:34:34] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:34:34] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:34:35] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:34:55] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64152}, goog:processID: 22596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64152/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 468a2f124e13c52422eb2c6ab73e61f3
-[2026-03-17 22:34:55] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addUserWithExistingEmail_2026-03-17_22-34-55.png
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer01
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: ismealadmin
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [ismealadmin] في العنصر: By.id: validationServer01
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر مرئي: By.id: validationServer02
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - 🔄 جاري مسح النص القديم والكتابة الجديدة: 123456
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم كتابة النص بنجاح: [123456] في العنصر: By.id: validationServer02
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر قابل للنقر: By.cssSelector: button.btn-login
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم النقر على العنصر: By.cssSelector: button.btn-login
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.Pages.BasePage - ⏳ انتظار الصفحة لتكون جاهزة...
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ الصفحة جاهزة
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.Pages.LoginPage - ✅ تم تسجيل الدخول بنجاح: ismealadmin
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - ✅ تم إنشاء ActionBot بنجاح مع WebDriver
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.Pages.BasePage - ✅ تم إنشاء BasePage بنجاح
-[2026-03-17 22:35:01] [INFO ] com.DoneProject.helpers.ActionBot - ⏳ جاري الانتظار لعنصر موجود: By.id: notifictions
-[2026-03-17 22:35:21] [ERROR] com.DoneProject.helpers.ActionBot - ❌ فشل النقر بـ JavaScript على العنصر: By.id: notifictions - الخطأ: Expected condition failed: waiting for presence of element found by By.id: notifictions
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51867}, goog:processID: 2664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51867/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3ee4eb3fa926aaedb8087c79c512b6e
-[2026-03-17 22:35:21] [INFO ] com.DoneProject.utils.ScreenshotUtils - ✅ تم حفظ الـ screenshot: screenshots/addAndDeleteUserLifecycle_2026-03-17_22-35-21.png
+Command: [f5b2ae69568e31f7e43b0599c85a4af2, findElement {using=xpath, value=//a[.//h4[normalize-space()='Automation Sector Updated']]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\LAPSTO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60952}, goog:processID: 22508, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60952/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f5b2ae69568e31f7e43b0599c85a4af2
+[2026-03-30 17:16:58] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:16:58] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:16:58] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddProjectTest/addProjectWithSpecialChars_2026-03-30_17-16-58.png
+[2026-03-30 17:18:57] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Started: automation DONE
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:02] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:19:05] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:06] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:06] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:19:06] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: addSectorSuccessfully
+[2026-03-30 17:19:06] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:19:06] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: AutoSector_1774883946281
+[2026-03-30 17:19:07] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: h5.title-list ~ button.btn-primary
+[2026-03-30 17:19:09] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [AutoSector_1774883946281] into By.cssSelector: input[type='text'].form-control
+[2026-03-30 17:19:09] [INFO ] com.DoneProject.Pages.SectorsPage - Clicking the save button for the sector
+[2026-03-30 17:19:10] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-primary[type='submit']
+[2026-03-30 17:19:11] [INFO ] com.DoneProject.Pages.BasePage - Intercepted toasts: [Add Done, Add Done]
+[2026-03-30 17:19:16] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:19:16] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: addSectorSuccessfully
+[2026-03-30 17:19:16] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:19:16] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:21] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:19:24] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:25] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:25] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:19:25] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: editSectorSuccessfully
+[2026-03-30 17:19:25] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: BaseSector_1774883965108
+[2026-03-30 17:19:25] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: h5.title-list ~ button.btn-primary
+[2026-03-30 17:19:28] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [BaseSector_1774883965108] into By.cssSelector: input[type='text'].form-control
+[2026-03-30 17:19:28] [INFO ] com.DoneProject.Pages.SectorsPage - Clicking the save button for the sector
+[2026-03-30 17:19:28] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-primary[type='submit']
+[2026-03-30 17:19:28] [INFO ] com.DoneProject.Pages.SectorsPage - Editing sector: BaseSector_1774883965108 -> UpdatedSector_1774883965108
+[2026-03-30 17:19:30] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //div[contains(@class,'projectCard')][.//text()[normalize-space()='BaseSector_1774883965108']]//button[@title='Edit']
+[2026-03-30 17:19:34] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [UpdatedSector_1774883965108] into By.cssSelector: input[type='text'].form-control
+[2026-03-30 17:19:34] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-primary[type='submit']
+[2026-03-30 17:19:36] [INFO ] com.DoneProject.Pages.BasePage - Intercepted toasts: [EditDone, EditDone]
+[2026-03-30 17:19:41] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:19:41] [INFO ] tests.DoneProject.listeners.TestListener - ✅ TEST PASSED: editSectorSuccessfully
+[2026-03-30 17:19:41] [INFO ] tests.DoneProject.listeners.TestListener - -----------------------------------------------------
+[2026-03-30 17:19:41] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [ismealadmin] into By.id: validationServer01
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [123456] into By.id: validationServer02
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn-login
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:46] [INFO ] com.DoneProject.Pages.NavBarPage - Navigating to: Sectors Management
+[2026-03-30 17:19:49] [INFO ] com.DoneProject.helpers.ActionBot - JS Clicked: By.id: notifictions
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //a[@routerlink='/adminstration']
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.helpers.ActionBot - ActionBot initialized
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.Pages.BasePage - BasePage initialized
+[2026-03-30 17:19:50] [INFO ] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:50] [INFO ] tests.DoneProject.listeners.TestListener - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2026-03-30 17:19:50] [INFO ] tests.DoneProject.listeners.TestListener - 🚀 STARTING TEST: deleteSectorSuccessfully
+[2026-03-30 17:19:50] [INFO ] tests.DoneProject.listeners.TestListener - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.Pages.SectorsPage - Opening add sector modal and entering name: DeleteSector_1774883990136
+[2026-03-30 17:19:50] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: h5.title-list ~ button.btn-primary
+[2026-03-30 17:19:53] [INFO ] com.DoneProject.helpers.ActionBot - Typed: [DeleteSector_1774883990136] into By.cssSelector: input[type='text'].form-control
+[2026-03-30 17:19:53] [INFO ] com.DoneProject.Pages.SectorsPage - Clicking the save button for the sector
+[2026-03-30 17:19:53] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-primary[type='submit']
+[2026-03-30 17:19:53] [INFO ] com.DoneProject.Pages.SectorsPage - Deleting sector: DeleteSector_1774883990136
+[2026-03-30 17:19:55] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.xpath: //div[contains(@class,'projectCard')][.//text()[normalize-space()='DeleteSector_1774883990136']]//button[@title='Delete']
+[2026-03-30 17:19:56] [INFO ] com.DoneProject.helpers.ActionBot - Clicked: By.cssSelector: button.btn.btn-danger
+[2026-03-30 17:19:56] [INFO ] com.DoneProject.Pages.BasePage - Intercepted toasts: [Add Done, Add Done]
+[2026-03-30 17:19:56] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:19:56] [ERROR] tests.DoneProject.listeners.TestListener - ❌ TEST FAILED: deleteSectorSuccessfully
+[2026-03-30 17:19:56] [ERROR] tests.DoneProject.listeners.TestListener - ❓ Reason: Expected 'Delete Done' toast not found! Actual: [Add Done, Add Done] expected [true] but found [false]
+[2026-03-30 17:19:56] [ERROR] tests.DoneProject.listeners.TestListener - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[2026-03-30 17:19:56] [ERROR] tests.DoneProject.listeners.TestListener - 
+[2026-03-30 17:19:56] [INFO ] com.DoneProject.utils.ScreenshotUtils - 📸 Screenshot saved: screenshots/AddEditDeleteSectorTest/deleteSectorSuccessfully_2026-03-30_17-19-56.png
+[2026-03-30 17:19:56] [INFO ] tests.DoneProject.listeners.TestListener - 🏁 Test Suite Execution Finished: automation DONE
+[2026-03-30 17:19:56] [INFO ] tests.DoneProject.listeners.TestListener - 📊 Summary: Passed=2, Failed=1, Skipped=0

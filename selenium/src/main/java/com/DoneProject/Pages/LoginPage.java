@@ -1,31 +1,80 @@
 package com.DoneProject.Pages;
 
 import org.openqa.selenium.By;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class LoginPage extends BasePage {
 
-    private static final Logger logger = LoggerFactory.getLogger(LoginPage.class);
-
-    private final By usernameInput = By.id("validationServer01");
-    private final By passwordInput = By.id("validationServer02");
-    private final By loginBtn      = By.cssSelector("button.btn-login");
+    // --- Locators (Private & Stable) ---
+    private final By emailInput      = By.id("validationServer01");
+    private final By passwordInput   = By.id("validationServer02");
+    private final By signInButton    = By.cssSelector("button.btn-login");
+    private final By rememberMeCheck = By.xpath("//input[@type='checkbox']");
 
     public LoginPage() {
         super();
     }
 
-    public NavBarPage login(String username, String password) {
-        logger.info("🔑 Attempting Login for User: {}", username);
-        waitForPageToBeReady();
+    /**
+     * @deprecated Use default constructor instead. Driver is handled by BasePage.
+     */
+    @Deprecated
+    public LoginPage(org.openqa.selenium.WebDriver driver) {
+        this();
+    }
 
-        sendKeys(usernameInput, username);
-        sendKeys(passwordInput, password);
-        click(loginBtn);
+    // --- Actions ---
 
+    /**
+     * Performs a complete login flow.
+     * @param email user email/username
+     * @param password user password
+     * @return NavBarPage representing the post-login state
+     */
+    public NavBarPage login(String email, String password) {
+        enterEmail(email);
+        enterPassword(password);
+        clickSignIn();
         waitForPageToBeReady();
-        logger.info("✅ Login successful");
         return new NavBarPage();
+    }
+
+    public void enterEmail(String email) {
+        sendKeys(emailInput, email);
+    }
+
+    public void enterPassword(String password) {
+        sendKeys(passwordInput, password);
+    }
+
+    public void clickSignIn() {
+        click(signInButton);
+    }
+
+    public void clickRememberMe() {
+        click(rememberMeCheck);
+    }
+
+    /**
+     * Checks if the login was successful by verifying if a post-login element is visible.
+     * @return true if navbar/dashboard is visible, false otherwise.
+     */
+    public boolean isLoginSuccessful() {
+        try {
+            // Using a stable element from the NavBarPage to verify success
+            return waitForElement(By.id("notifictions")).isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    /**
+     * Checks if the login page itself is loaded.
+     */
+    public boolean isPageLoaded() {
+        try {
+            return waitForElement(emailInput).isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
     }
 }

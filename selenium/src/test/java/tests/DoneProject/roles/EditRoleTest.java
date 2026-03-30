@@ -4,35 +4,80 @@ import com.DoneProject.Pages.LoginPage;
 import com.DoneProject.Pages.NavBarPage;
 import com.DoneProject.Pages.RolesPage;
 import tests.DoneProject.BaseTest;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class EditRoleTest extends BaseTest {
 
-    @Test
-    public void testEditRole() {
-        new LoginPage().login("ismealadmin", "123456");
+    private RolesPage rolesPage;
 
-        NavBarPage navBar    = new NavBarPage();
-        RolesPage  rolesPage = new RolesPage();
+    private final String USERNAME = "ismealadmin";
+    private final String PASSWORD = "123456";
 
+    @BeforeMethod
+    public void setupTest() {
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.login(USERNAME, PASSWORD);
+
+        NavBarPage navBar = new NavBarPage();
         navBar.goToRoles();
-        rolesPage.openEditRoleByName("Automation RoleEe");
-        rolesPage.selectPermissionsAndMove(
-                "عرض المشاريع",
-                "تعديل المشاريع",
-                "حذف المشاريع",
-                "عرض المهام",
-                "اضافة المهام",
-                "تعديل المهام",
-                "حذف المهام",
-                "تعديل مستخدم",
-                "حذف مستخدم",
-                "عرض المستخدمين",
-                "عرض الوظائف",
-                "اضافة الوظائف",
-                "تعديل الوظائف",
-                "حذف الوظائف"
-        );
-        rolesPage.clickSave();
+
+        rolesPage = new RolesPage();
+    }
+
+    @Test(priority = 1)
+    public void editRoleNameSuccessfully() {
+        // Setup: Create a base role
+        long timestamp = System.currentTimeMillis();
+        String oldName = "OldRole_" + timestamp;
+        rolesPage.addRole(oldName);
+        rolesPage.waitForToastToDisappear();
+
+        // Act: Edit the role name
+        String newName = "UpdatedRole_" + timestamp;
+        rolesPage.editRole(oldName, newName);
+
+        // Assert: Validate success toast
+        List<String> messages = rolesPage.getAllToastMessages();
+        Assert.assertTrue(messages.stream().anyMatch(m -> m.contains("successfully")), "Edit role name failed! Toasts: " + messages);
+        rolesPage.waitForToastToDisappear();
+    }
+
+    @Test(priority = 2)
+    public void editRoleWithSpecialCharacters() {
+        // Setup: Create a base role
+        String oldName = "BaseSpecialRole_" + System.currentTimeMillis();
+        rolesPage.addRole(oldName);
+        rolesPage.waitForToastToDisappear();
+
+        // Act: Edit name to include special characters
+        String specialName = "Updated_@#$%^_" + System.currentTimeMillis();
+        rolesPage.editRole(oldName, specialName);
+
+        // Assert: Validate success toast
+        List<String> messages = rolesPage.getAllToastMessages();
+        Assert.assertTrue(messages.stream().anyMatch(m -> m.contains("successfully")), "Edit role with special chars failed! Toasts: " + messages);
+        rolesPage.waitForToastToDisappear();
+    }
+
+    @Test(priority = 3)
+    public void editRolePermissionsAndSave() {
+        // Setup: Create a base role
+        String roleName = "PermRole_" + System.currentTimeMillis();
+        rolesPage.addRole(roleName);
+        rolesPage.waitForToastToDisappear();
+
+        // Act: Edit permissions
+        rolesPage.openEditPermissionsByName(roleName);
+        rolesPage.selectPermissionsAndMove("View dashboard", "Add Project");
+        rolesPage.savePermissions();
+
+        // Assert: Validate success toast for saving permissions
+        List<String> messages = rolesPage.getAllToastMessages();
+        Assert.assertTrue(messages.stream().anyMatch(m -> m.contains("successfully")), "Edit role permissions failed! Toasts: " + messages);
+        rolesPage.waitForToastToDisappear();
     }
 }
