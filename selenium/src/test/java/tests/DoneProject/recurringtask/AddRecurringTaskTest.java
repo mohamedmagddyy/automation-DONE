@@ -27,10 +27,7 @@ public class AddRecurringTaskTest extends BaseTest {
 
         // Step 2: Navigate to the target page via NavBar
         NavBarPage navBar = new NavBarPage();
-        navBar.goToRecurringTask();
-
-        // Step 3: Initialize the page object for the tests
-        recurringTaskPage = new RecurringTaskPage();
+        recurringTaskPage = navBar.goToRecurringTasks();
     }
 
     @Test(priority = 1, description = "Add a daily recurring task with all fields filled")

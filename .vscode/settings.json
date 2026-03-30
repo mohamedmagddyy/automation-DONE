@@ -1,4 +1,5 @@
 {
     "workbench.externalBrowser": "chrome",
-    "simpleBrowser.focusLockIndicator.enabled": false
+    "simpleBrowser.focusLockIndicator.enabled": false,
+    "java.compile.nullAnalysis.mode": "automatic"
 }

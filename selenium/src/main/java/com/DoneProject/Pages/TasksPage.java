@@ -13,14 +13,18 @@ public class TasksPage extends BasePage {
 
     private final By addTaskMenuButton = By.id("dropdownMenuButton1");
     private final By createTaskOption = By.xpath("//a[normalize-space()='Create task']");
-    private final By closeModalButton = By.cssSelector("#addNewQmission .modal-header button.btn-close[aria-label='Close']");
-    private final By confirmDeleteButton = By.xpath("//div[contains(@class,'modal') and contains(@class,'show')]//button[normalize-space()='Yes']");
-    private final By firstTaskActionButton = By.xpath("//div[@id='ToDo']//div[@class='p-scrollpanel-content']//div[1]//div[1]//button[1]//i[1]");
+    private final By closeModalButton = By
+            .cssSelector("#addNewQmission .modal-header button.btn-close[aria-label='Close']");
+    private final By confirmDeleteButton = By
+            .xpath("//div[contains(@class,'modal') and contains(@class,'show')]//button[normalize-space()='Yes']");
+    private final By firstTaskActionButton = By
+            .xpath("//div[@id='ToDo']//div[@class='p-scrollpanel-content']//div[1]//div[1]//button[1]//i[1]");
 
     private final String taskContainerXpath = "//div[contains(@class,'card') and .//*[normalize-space()='%s']]";
     private final String threeDotsButtonXpathSnippet = ".//button[contains(@class,'tooltip-n') and normalize-space()='…']";
     private final By dropdownMenu = By.cssSelector(".dropdown-menu.show");
-    private final By confirmButton = By.cssSelector(".modal.show .btn-primary, .modal.show .btn-danger, .modal.show .btn-submitdone");
+    private final By confirmButton = By
+            .cssSelector(".modal.show .btn-primary, .modal.show .btn-danger, .modal.show .btn-submitdone");
 
     private final By[] taskNameCandidates = {
             By.xpath("//div[@id='addNewQmission']//input[@id='name']"),
@@ -46,7 +50,8 @@ public class TasksPage extends BasePage {
                     logger.info("Typed task name using locator: {}", candidate);
                     return;
                 }
-            } catch (Exception ignored) {}
+            } catch (Exception ignored) {
+            }
         }
         throw new RuntimeException("Task name input field not found.");
     }
@@ -72,7 +77,8 @@ public class TasksPage extends BasePage {
     }
 
     private void validateMenuOption(String optionName) {
-        final java.util.List<String> allowed = java.util.Arrays.asList("Open", "Edit task status", "Move to archive", "Delete");
+        final java.util.List<String> allowed = java.util.Arrays.asList("Open", "Edit task status", "Move to archive",
+                "Delete");
         if (!allowed.contains(optionName)) {
             throw new IllegalArgumentException("Invalid menu option requested: " + optionName);
         }
@@ -81,13 +87,16 @@ public class TasksPage extends BasePage {
     private void selectMenuOption(String taskName, String optionName) {
         validateMenuOption(optionName);
         clickThreeDotsForTask(taskName);
-        By optionLocator = By.xpath("//ul[contains(@class,'dropdown-menu') and contains(@class,'show')]//span[normalize-space()='" + optionName + "']");
+        By optionLocator = By
+                .xpath("//ul[contains(@class,'dropdown-menu') and contains(@class,'show')]//span[normalize-space()='"
+                        + optionName + "']");
         WaitUtils.waitForElementToBeClickable(driver, optionLocator, 5).click();
     }
 
     private void clickThreeDotsForTask(String taskName) {
         WebElement container = getTaskElement(taskName);
-        By fullDotsLocator = By.xpath(String.format(taskContainerXpath, taskName) + threeDotsButtonXpathSnippet.substring(1));
+        By fullDotsLocator = By
+                .xpath(String.format(taskContainerXpath, taskName) + threeDotsButtonXpathSnippet.substring(1));
         WebElement dots = WaitUtils.waitForElementToBeClickable(driver, fullDotsLocator, 5);
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", dots);
         dots.click();
@@ -105,7 +114,8 @@ public class TasksPage extends BasePage {
 
     public TasksPage editFirstTask(String newTaskName) {
         click(firstTaskActionButton);
-        click(By.xpath("//ul[contains(@class,'dropdown-menu') and contains(@class,'show')]//span[normalize-space()='Open']"));
+        click(By.xpath(
+                "//ul[contains(@class,'dropdown-menu') and contains(@class,'show')]//span[normalize-space()='Open']"));
         typeTaskName(newTaskName);
         closeModal();
         return this;
@@ -113,7 +123,8 @@ public class TasksPage extends BasePage {
 
     public TasksPage deleteFirstTask() {
         click(firstTaskActionButton);
-        click(By.xpath("//ul[contains(@class,'dropdown-menu') and contains(@class,'show')]//span[normalize-space()='Delete']"));
+        click(By.xpath(
+                "//ul[contains(@class,'dropdown-menu') and contains(@class,'show')]//span[normalize-space()='Delete']"));
         WaitUtils.waitForElementToBeClickable(driver, confirmDeleteButton, 5).click();
         return this;
     }

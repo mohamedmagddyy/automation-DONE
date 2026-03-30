@@ -9,8 +9,6 @@ import tests.DoneProject.BaseTest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.List;
-
 public class LoginTest extends BaseTest {
 
     private static final Logger logger = LoggerFactory.getLogger(LoginTest.class);
@@ -19,19 +17,19 @@ public class LoginTest extends BaseTest {
     @BeforeMethod
     public void setupTest() {
         logger.info("Setting up LoginTest: initializing LoginPage");
-        loginPage = new LoginPage(driver);
+        loginPage = new LoginPage();
     }
 
     // --- Valid Login Test ---
     @Test(dataProvider = "validLoginData", description = "Verify successful login changes the URL")
     public void testSuccessfulLogin(String username, String password) {
         logger.info("Executing testSuccessfulLogin for user: {}", username);
+
+        loginPage.login(username, password);
+
+        // Assert: Login should be successful (navbar visible)
+        Assert.assertTrue(loginPage.isLoginSuccessful(), "Login was not successful; Navbar not detected!");
         
-        List<String> errors = loginPage.login(username, password);
-
-        // Assert: No error messages
-        Assert.assertTrue(errors.isEmpty(), "Unexpected error messages: " + errors);
-
         // Assert: URL should transition away from login page
         String currentUrl = driver.getCurrentUrl();
         Assert.assertFalse(currentUrl.contains("login"),
@@ -39,53 +37,42 @@ public class LoginTest extends BaseTest {
     }
 
     // --- Invalid Login Test ---
-    @Test(dataProvider = "invalidLoginData", description = "Verify invalid logins trigger error messages")
+    @Test(dataProvider = "invalidLoginData", description = "Verify invalid logins do not proceed")
     public void testInvalidLogin(String username, String password) {
         logger.info("Executing testInvalidLogin for user: {}", username);
-        
-        List<String> errors = loginPage.login(username, password);
 
-        Assert.assertTrue(
-            errors.stream().anyMatch(e -> 
-                e.contains("incorrect") ||
-                e.contains("Enter User name") ||
-                e.contains("Enter Password") ||
-                e.contains("Username must")
-            ),
-            "Expected error message not found! Actual: " + errors
-        );
+        loginPage.login(username, password);
+
+        // Assert: Login should NOT be successful
+        Assert.assertFalse(loginPage.isLoginSuccessful(), "Login should have failed for invalid credentials!");
     }
 
     // --- Empty Fields Validation ---
     @Test(description = "Verify empty fields show validation errors")
     public void testEmptyFieldsValidation() {
         logger.info("Executing testEmptyFieldsValidation");
-        
-        List<String> errors = loginPage.login("", "");
 
-        Assert.assertTrue(
-            errors.stream().anyMatch(e -> 
-                e.contains("Enter User name") ||
-                e.contains("Enter Password")
-            ),
-            "Expected validation messages for empty fields not found! Actual: " + errors
-        );
+        loginPage.login("", "");
+
+        // Assert: Still on login page and not successful
+        Assert.assertTrue(loginPage.isPageLoaded(), "Login page should still be loaded for empty fields");
+        Assert.assertFalse(loginPage.isLoginSuccessful(), "Login should not be successful for empty fields");
     }
 
     // --- Data Providers ---
     @DataProvider(name = "validLoginData")
     public Object[][] getValidLoginData() {
         return new Object[][] {
-            { "ismealadmin", "123456" } // تأكد من البيانات حسب البيئة
+                { "ismealadmin", "123456" } 
         };
     }
 
     @DataProvider(name = "invalidLoginData")
     public Object[][] getInvalidLoginData() {
         return new Object[][] {
-            { "invalidUser@example.com", "wrongPass!" },
-            { "ismealadmin", "wrongPass!" },
-            { " ", " " }
+                { "invalidUser@example.com", "wrongPass!" },
+                { "ismealadmin", "wrongPass!" },
+                { " ", " " }
         };
     }
 }

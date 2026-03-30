@@ -78,10 +78,10 @@ public class AddProjectTest extends BaseTest {
         for (int i = 1; i <= 3; i++) {
             String projectName = "Sequential Project " + i + " - " + timestamp;
             projectsPage.addProject(projectName);
-            
+
             List<String> messages = projectsPage.getAllToastMessages();
             Assert.assertTrue(messages.stream().anyMatch(m -> m.contains("successfully")), "Sequential project " + i + " failed!");
-            
+
             projectsPage.waitForToastToDisappear();
         }
     }
@@ -99,11 +99,11 @@ public class AddProjectTest extends BaseTest {
 
         List<String> addMessages = projectsPage.getAllToastMessages();
         Assert.assertTrue(addMessages.stream().anyMatch(m -> m.contains("successfully")), "Lifecycle Add project failed!");
-        
+
         projectsPage.waitForToastToDisappear();
 
         projectsPage.deleteProject(tempProject);
-        
+
         List<String> deleteMessages = projectsPage.getAllToastMessages();
         Assert.assertTrue(deleteMessages.stream().anyMatch(m -> m.contains("successfully")), "Lifecycle Delete project failed!");
     }

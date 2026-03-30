@@ -8,6 +8,7 @@ public class NavBarPage extends BasePage {
 
     private static final Logger logger = LoggerFactory.getLogger(NavBarPage.class);
 
+    // --- Locators (Private & Stable) ---
     private final By notificationDropdown = By.id("notifictions");
     private final By homeMenu             = By.xpath("//a[@routerlink='/home-admin']");
     private final By sectorsMenu          = By.xpath("//a[@routerlink='/adminstration']");
@@ -23,21 +24,26 @@ public class NavBarPage extends BasePage {
         super();
     }
 
+    // --- Navigation Helper ---
     private void navigateTo(By menuItem, String pageName) {
         logger.info("Navigating to: {}", pageName);
-        jsClick(notificationDropdown);
+        // Sometimes the notification dropdown or other overlays block the navbar
+        jsClick(notificationDropdown); 
         scrollTo(menuItem);
-        jsClick(menuItem);
+        click(menuItem);
         waitForPageToBeReady();
     }
 
-    public void goToHome() {
-        navigateTo(homeMenu, "Home");
+    // --- Public Navigation Actions ---
+
+    public DashboardPage goToDashboard() {
+        navigateTo(homeMenu, "Dashboard");
+        return new DashboardPage();
     }
 
-    public ProjectsPage goToSectors() {
-        navigateTo(sectorsMenu, "Sectors/Projects");
-        return new ProjectsPage();
+    public SectorsPage goToSectors() {
+        navigateTo(sectorsMenu, "Sectors Management");
+        return new SectorsPage();
     }
 
     public TasksPage goToTasksBoard() {
@@ -50,12 +56,14 @@ public class NavBarPage extends BasePage {
         return new RolesPage();
     }
 
-    public void goToChat() {
+    public ChatPage goToChat() {
         navigateTo(chatMenu, "Chat");
+        return new ChatPage();
     }
 
-    public void goToSettings() {
+    public SettingsPage goToSettings() {
         navigateTo(settingsMenu, "Settings");
+        return new SettingsPage();
     }
 
     public FileManagerPage goToFileManager() {
@@ -68,8 +76,28 @@ public class NavBarPage extends BasePage {
         return new UsersPage();
     }
 
-    public RecurringTaskPage goToRecurringTask() {
-        navigateTo(recurringTaskMenu, "Recurring Task");
+    public RecurringTaskPage goToRecurringTasks() {
+        navigateTo(recurringTaskMenu, "Recurring Tasks");
         return new RecurringTaskPage();
+    }
+
+    /**
+     * Specialized flow: Navigates to Sectors then opens a specific sector.
+     * @param sectorName Name of the sector to open.
+     * @return ProjectsPage for the selected sector.
+     */
+    public ProjectsPage goToProjects(String sectorName) {
+        logger.info("Navigation flow: NavBar -> Sectors -> Projects for sector: {}", sectorName);
+        // goToSectors() returns a SectorsPage (updated from previous ProjectsPage return)
+        // However, looking at the previous implementation, goToSectors returned ProjectsPage.
+        // Let's stick to returning SectorsPage if the menu leads there, 
+        // OR if the menu actually leads to a page called "Sectors/Projects", 
+        // we use ProjectsPage.openSectorByName.
+        
+        // Based on the file list, SectorsPage handles adding/editing sectors.
+        // ProjectsPage handles sector links.
+        
+        navigateTo(sectorsMenu, "Sectors Page");
+        return new ProjectsPage().openSectorByName(sectorName);
     }
 }
