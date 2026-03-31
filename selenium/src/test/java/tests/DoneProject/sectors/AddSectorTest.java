@@ -35,7 +35,7 @@ public class AddSectorTest extends BaseTest {
 
         // Act: Open modal, fill name, assign manager, and save
         sectorsPage.addSector(sectorName);
-        sectorsPage.selectManagerByName("ismealadmin");
+        sectorsPage.selectManager("ismealadmin");
         sectorsPage.saveSector();
 
         // Assert: Validate success toast
