@@ -1,0 +1,93 @@
+# ====== Maven ======
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ====== IntelliJ IDEA ======
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+*.swp
+*.swo
+
+# ====== VS Code ======
+.vscode/
+*.code-workspace
+
+# ====== IDE Plugins ======
+.classpath
+.project
+.settings/
+bin/
+
+# ====== Build & Compilation ======
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+build/
+
+# ====== Test Logs & Reports ======
+logs/
+*.log
+test-output/
+surefire-reports/
+html-reports/
+allure-results/
+allure-reports/
+
+# ====== Test Screenshots & Evidence ======
+screenshots/
+test-screenshots/
+evidence/
+
+# ====== OS Files ======
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ====== Package Managers ======
+node_modules/
+package-lock.json
+yarn.lock
+
+# ====== Misc Files ======
+*.orig
+*.bak
+*.tmp
+*.temp
+*.cache
+.gradle/
+*.patch
+
+# ====== Environment Files ======
+.env
+.env.local
+.env.*.local
+
+# ====== Temporary Compile Errors ======
+compile_errors.txt
+build_errors.log
+
+# ====== WebDriver Cache ======
+.wdm/

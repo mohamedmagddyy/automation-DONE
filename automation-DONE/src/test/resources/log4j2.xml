@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- ================= Console Appender =================-->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss}] %msg%n"/>
+        </Console>
+
+        <!-- ================= File Appender =================-->
+        <RollingFile name="File" fileName="logs/automation_tests.log" filePattern="logs/automation_tests-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss}] [%-5p] %c - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- ================= Project Logs =================-->
+        <Logger name="com.DoneProject" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Logger name="tests.DoneProject" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <!-- ================= Suppress Third-Party Logs =================-->
+        <Logger name="io.github.bonigarcia" level="off" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Logger name="org.apache.hc" level="off" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Logger name="org.testng" level="off" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <Logger name="org.openqa.selenium" level="warn" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <!-- Root Logger -->
+        <Root level="off">
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>
